@@ -1,0 +1,62 @@
+# WC II Interactive — build status
+
+Pickup file. If work stops, read this, then `README.md`, then continue from the first unchecked item.
+
+## Decisions (locked)
+
+- Revised Fall 2026 syllabus only: oral Analyses of History, book notes, integrative oral exam. No Controversiae rooms.
+- Calendar-gated on Fall 2026 Mondays (America/Chicago). Review-layer quotes of that week’s assigned PDF unlock when the next Monday begins.
+- Static GitHub Pages, Ars-app style. Publish the `app/` folder only (course PDFs are copyrighted; do not publish the parent folder).
+- I write all words and code. Grok Bot fills image slots listed in `docs/GROK-IMAGE-SLOTS.md`.
+- Lit/art/music: `js/data/arts.js` is the one editable connections file. Historically pointed or less-known first; Dante/Chaucer etc. in small doses, never as “X is like Y.”
+- Restate Greco-Roman inheritance only when omitting it would distort.
+- Intro teaches culture + four causes + Tocqueville. *The One and the Many* is a quiet overlay.
+- Battles: W1 Bouvines, Crécy, Constantinople 1453; W5 Lepanto, Vienna 1683, Blenheim; W9 Austerlitz, Leipzig 1813, Waterloo.
+- Reconstructions: W4 mean-speed, computus, astrolabe; W8 inclined plane, Jupiter’s moons, Leeuwenhoek; W12 Lavoisier, Watt indicator, Jones/Sanskrit. Printing, double-entry, Pompeii as short sequences in adjacent weeks.
+- Maps from Wikimedia / LoC / similar PD; CSS filter now; Grok restyle later. Draw SVG on maps for armies and routes.
+- localStorage for student work. GoatCounter for anonymous paths/events (not on localhost/file/faculty).
+- English PD translations; original-language toggle where we have the text and it helps.
+
+## Term dates
+
+Week *n* unlocks Monday `2026-08-31 + (n-1)*7`. Review quotes for week *n* unlock the following Monday. Week 13 (2026-11-23) is Thanksgiving (no new rooms). Week 14 (2026-11-30) is review. Faculty: `?faculty=1`.
+
+## File map
+
+```
+app/
+  index.html
+  serve.command
+  css/app.css
+  js/namespace.js calendar.js storage.js analytics.js app.js
+  js/engines/{question,passages,map,battle,reconstruction}.js
+  js/data/course.js intro.js arts.js review.js w01.js … w12.js
+  maps/            public-domain bases + CREDITS.md
+  images/          Grok-filled slots (placeholders until then)
+  docs/BUILD-STATUS.md  README.md  CITATIONS.md  GROK-IMAGE-SLOTS.md
+```
+
+## Checklist
+
+- [x] Decisions recorded
+- [x] Shell: html, css, calendar, storage, analytics, router, faculty bar
+- [x] Engines
+- [x] Public-domain maps downloaded + credited (Waterloo/Leipzig fetched on retry)
+- [x] Intro content
+- [x] arts.js connections
+- [x] Weeks 1–4
+- [x] Weeks 5–8
+- [x] Weeks 9–12 + review
+- [x] GROK-IMAGE-SLOTS.md complete
+- [x] CITATIONS.md
+- [x] Smoke check (`node --check`, `node scripts/smoke.js`)
+- [ ] Browser click-through (open `?faculty=1` and walk a battle + a reconstruction)
+- [ ] Create the real GoatCounter site and paste the URL into `js/analytics.js`
+- [ ] Grok Bot: restyle maps + fill `images/wNN-atmosphere.jpg`
+
+## How to resume
+
+1. Open this file.
+2. First unchecked item is the next task.
+3. Do not republish parent-folder PDFs.
+4. Do not summarize a week’s assigned Reilly / Neal-Cameron / Herzog / Bod in that week’s rooms. Quote them only in rooms with `review: true`.
