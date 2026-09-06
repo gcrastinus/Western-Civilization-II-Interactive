@@ -155,6 +155,7 @@ WC2.renderRoom = function (week, room, mount) {
     else if (room.type === 'battle') WC2.engines.battle(room, mount);
     else if (room.type === 'reconstruction') WC2.engines.reconstruction(room, mount);
     else if (room.type === 'passages' || room.type === 'dispute') WC2.engines.passages(room, mount);
+    else if (room.type === 'contest') WC2.engines.contest(room, mount);
     else if (room.type === 'connections') {
       const ul = WC2.el('ul', { class: 'connections' });
       (WC2.arts[week.id] || room.items || []).forEach(function (c) {

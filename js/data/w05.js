@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Don Quixote, Part II, ch. 58'
   },
   kicker: 'Week 5 · leagues, a relief army, a captain of the Grand Alliance',
-  lede: 'You already know, from Kevin Reilly, <em>The Human Journey</em>, the empires and encounters of 1450–1750. Here three fields on which a Christian-European coalition actually fought, and a dispute about whether “the Renaissance” names a world.',
+  lede: 'You already know, from Kevin Reilly, <em>The Human Journey</em>, the empires and encounters of 1450–1750. Here three fields on which a Christian-European coalition actually fought, and two long quarrels: whether “the Renaissance” names a world, and whether “the Reformation” is one event, many, or a later story.',
   rooms: [
     {
       id: 'lepanto',
@@ -186,35 +186,21 @@ WC2.registerWeek({
     },
     {
       id: 'renaissance',
-      title: 'What is the Renaissance?',
-      nav: 'Dispute: Renaissance',
-      kind: 'dispute',
-      type: 'dispute',
-      blurb: 'Burckhardt, Huizinga, Caferro, and the inventors of the word.',
-      positions: [
-        {
-          scholar: 'Jacob Burckhardt',
-          years: '1860',
-          work: 'The Civilization of the Renaissance in Italy',
-          summary: 'A new individual, a new state as a work of art, a discovery of the world and of man. Medieval veils drop.',
-          html: '<p>Position (summary): Italy, especially, becomes a place where men treat the state, the self, and antiquity as things to be shaped. The book is a vision, not a census. It still sets the questions everyone else is answering.</p>'
-        },
-        {
-          scholar: 'Johan Huizinga',
-          years: '1919',
-          work: 'The Autumn of the Middle Ages',
-          summary: 'The same centuries in Burgundy and northern France look like a late medieval autumn: a culture of forms pushed to over-ripeness, not a sunrise.',
-          html: '<p>Position (summary): if you start from tournaments, mourning, and religious image, “Renaissance” is the wrong weather. Caferro will later point out that the quarrel is also about which region you stand in.</p>'
-        },
-        {
-          scholar: 'William Caferro',
-          years: '2011',
-          work: 'Contesting the Renaissance',
-          summary: 'The category is a battlefield: period, place, modernity, the state, the individual, the economy. Even “military revolution” and Weber’s bureaucracy get loaded into it.',
-          html: '<p>Position (summary): stop treating “Renaissance” as a fact that explains other facts. Ask what is being claimed — a state with a monopoly of force, a standing army (French <em>ordonnances</em> of the 1440s), a new art of describing nature, a new antiquity. Each claim has a different chronology. Ada Palmer’s later <em>Inventing the Renaissance</em> pushes the same unease: the period is something we keep remaking.</p>'
-        }
-      ],
-      ask: 'Witt’s “two Latin cultures” in Italy (legal-notarial versus French-literary) is another way to refuse a single sunrise. Which of these helps you read a Blenheim dispatch? Which only helps you read a Vasari life?'
+      title: 'Contesting the Renaissance',
+      nav: 'Renaissance',
+      kind: 'contest',
+      type: 'contest',
+      contestId: 'renaissance',
+      blurb: 'Burckhardt’s sunrise, Huizinga’s autumn, and the fights that replaced both.'
+    },
+    {
+      id: 'reformation',
+      title: 'Contesting the Reformation',
+      nav: 'Reformation',
+      kind: 'contest',
+      type: 'contest',
+      contestId: 'reformation',
+      blurb: 'What to call it, when it runs, whose ideas, whose revolt — and whether a hammer ever hit a door.'
     },
     {
       id: 'printing',
@@ -244,7 +230,8 @@ WC2.registerWeek({
       kind: 'resources',
       type: 'resources',
       items: [
-        'Caferro, <em>Contesting the Renaissance</em> — already in the course folder; use a chapter, not the whole polemic, as a second pass.',
+        'William Caferro, <em>Contesting the Renaissance</em> (2011) — already in the course folder; use a chapter, not the whole polemic, as a second pass.',
+        'C. Scott Dixon, <em>Contesting the Reformation</em> (2012) — already in the course folder; names, dates, radicals, and the Theses door are separate fights.',
         'A museum film of a wooden press.'
       ]
     }

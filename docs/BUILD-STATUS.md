@@ -29,8 +29,8 @@ app/
   serve.command
   css/app.css
   js/namespace.js calendar.js storage.js analytics.js app.js
-  js/engines/{question,passages,map,battle,reconstruction}.js
-  js/data/course.js intro.js arts.js review.js w01.js … w12.js
+  js/engines/{question,passages,map,battle,reconstruction,contest}.js
+  js/data/course.js intro.js arts.js review.js contest-renaissance.js contest-reformation.js w01.js … w12.js
   maps/            public-domain bases + CREDITS.md
   images/          Grok-filled slots (placeholders until then)
   docs/BUILD-STATUS.md  README.md  CITATIONS.md  GROK-IMAGE-SLOTS.md
@@ -46,6 +46,7 @@ app/
 - [x] arts.js connections
 - [x] Weeks 1–4
 - [x] Weeks 5–8
+- [x] Week 5 contests: Renaissance (Caferro) and Reformation (Dixon) — topic pills, opposing/complementary filters, chronology, evidence, scholarship shifts
 - [x] Weeks 9–12 + review
 - [x] GROK-IMAGE-SLOTS.md complete
 - [x] CITATIONS.md
