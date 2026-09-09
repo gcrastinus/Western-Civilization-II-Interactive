@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Table Talk, “Law”'
   },
   kicker: 'Week 7 · reception, natural rights older than Locke, how absolute was absolutism',
-  lede: 'You already have, from Tamar Herzog, <em>A Short History of European Law</em>, the early-modern legal map. Here: Vitoria at Salamanca, Coke against the crown, and the claim that rights have a medieval legal ancestry.',
+  lede: 'Tamar Herzog, <em>A Short History of European Law</em>, has already given the early-modern legal map. This week follows Vitoria at Salamanca, Coke against the crown, and the claim that rights have a medieval legal ancestry.',
   rooms: [
     {
       id: 'vitoria',
@@ -56,12 +56,12 @@ WC2.registerWeek({
           scholar: 'Brian Tierney',
           work: 'The Idea of Natural Rights',
           summary: 'Subjective rights — a faculty belonging to a person — are spoken in medieval canon law and in the Franciscan poverty debates (including Ockham’s world), long before the seventeenth century.',
-          html: '<p>Position (summary): if you begin the story with Hobbes and Locke you have already lost the plot. Jurists talking about <em>ius</em> as a power of the person, about poverty as a renunciation of rights, about consent, give later “modern” talk its grammar. Locke is late.</p>'
+          html: '<p>Tierney’s claim is that if the story of rights begins with Hobbes and Locke, the plot has already been lost. Medieval canonists and the Franciscan poverty debates spoke of <em>ius</em> as a power belonging to a person, of poverty as a renunciation of rights, and of consent. That vocabulary is the grammar of later “modern” talk. Locke is late in the conversation, not the first speaker.</p>'
         },
         {
           scholar: 'The early-modern “absolutist” reading',
           summary: 'Bodin’s République, the French legists, James I’s own tracts: majesty is indivisible; rights are concessions.',
-          html: '<p>Position (summary): whatever the canonists said, the sixteenth and seventeenth centuries are a hardening of command — fiscal, military, confessional. Koenigsberger and others reply that “absolutism” itself is a word covering very uneven reach. A French intendant is not a Russian autocrat; an English king who cannot tax without Parliament is something else again.</p>'
+          html: '<p>Against Tierney, this reading says that whatever the canonists said, the sixteenth and seventeenth centuries hardened command: fiscal, military, and confessional. Bodin’s majesty is indivisible; rights look like concessions. Helmut Koenigsberger and others reply that “absolutism” itself covers very uneven reach. A French intendant is not a Russian autocrat, and an English king who cannot tax without Parliament is something else again.</p>'
         }
       ],
       ask: 'Tamar Herzog, <em>A Short History of European Law</em>, has already shown you plural laws still living. Does Tierney explain that plurality, or does Bodin explain the attempt to kill it?'

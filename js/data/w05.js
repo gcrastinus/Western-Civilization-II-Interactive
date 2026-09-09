@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Don Quixote, Part II, ch. 58'
   },
   kicker: 'Week 5 · leagues, a relief army, a captain of the Grand Alliance',
-  lede: 'You already know, from Kevin Reilly, <em>The Human Journey</em>, the empires and encounters of 1450–1750. Here three fields on which a Christian-European coalition actually fought, and two long quarrels: whether “the Renaissance” names a world, and whether “the Reformation” is one event, many, or a later story.',
+  lede: 'Kevin Reilly, <em>The Human Journey</em>, has already set the empires and encounters of 1450–1750. This week turns to three fields on which a Christian-European coalition actually fought, and to two long quarrels: whether “the Renaissance” names a world, and whether “the Reformation” is one event, many events, or a later story.',
   rooms: [
     {
       id: 'lepanto',

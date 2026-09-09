@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'What Is Enlightenment?, 1784'
   },
   kicker: 'Week 12 · a closed vessel, an indicator diagram, a discourse in Calcutta',
-  lede: 'You already have, from Rens Bod, <em>World of Patterns</em>, the later modern stretch of the same survey. Here: Lavoisier’s balance, Watt’s indicator, and Jones on Sanskrit.',
+  lede: 'Rens Bod, <em>World of Patterns</em>, has already covered the later modern stretch of the same survey. This week works through Lavoisier’s balance, Watt’s indicator, and Jones on Sanskrit.',
   rooms: [
     {
       id: 'lavoisier',
@@ -76,20 +76,20 @@ WC2.registerWeek({
           scholar: 'Jonathan Israel',
           work: 'Radical Enlightenment / A Revolution of the Mind',
           summary: 'A Spinozist underground of equality and secular democracy, versus a moderate Enlightenment (Voltaire, Locke) that keeps God and hierarchy.',
-          html: '<p>Position (summary): the blaze of 1776 has a seventeenth-century fuse. If you find this too clean a split, say so — but know the split.</p>'
+          html: '<p>Israel’s claim is that a Spinozist underground of equality and secular democracy already existed in the seventeenth century, and that the “moderate” Enlightenment of Voltaire and Locke kept God and hierarchy. The blaze of 1776, on this view, has a seventeenth-century fuse. The split is cleaner than many historians will allow. It is still the split he asks you to test.</p>'
         },
         {
           scholar: 'Theological and national Enlightenments',
           summary: 'Catholic, Protestant, Jewish, and state-church versions that want useful knowledge without Israel’s radical package.',
-          html: '<p>Position (summary): a Bavarian Benedictine with a cabinet of instruments, or a Scottish moralist, is not a failed philosophe. Bouyer’s eye on Protestant principles would look for what remains Christian in the “light.”</p>'
+          html: '<p>Against Israel, this reading points to Catholic, Protestant, Jewish, and state-church Enlightenments that wanted useful knowledge without his radical package. A Bavarian Benedictine with a cabinet of instruments, or a Scottish moralist, is not a failed philosophe. Louis Bouyer, watching Protestant principles, would look for what remains Christian in the “light.”</p>'
         },
         {
           scholar: 'Black, Institutions of Islam and the West (for the edge of the comparison)',
           summary: 'Institutional divergence, not a cartoon of stagnant East and living West.',
-          html: '<p>Position (summary): when the course asks why the West became dominant, do not answer “Enlightenment” as a spirit. Answer with courts, companies, universities, and armies that could be paid. Then, if you wish, ask what vision of the good life made those habits worth acquiring.</p>'
+          html: '<p>Antony Black’s comparison of Islamic and Western institutions is a warning against answering “why the West became dominant” with “Enlightenment” as a spirit. The better first answer is courts, companies, universities, and armies that could be paid. After that, it is fair to ask what vision of the good life made those habits worth acquiring. Islam and the Latin West share Greek and Roman inheritances and a revealed law; they do not share the same later pairing of corporation, church-and-state split, and city-republic.</p>'
         }
       ],
-      ask: 'Use the four causes once, here, not as a sermon: what material (instruments, print, academies), what exemplary acts, what character, what vision of flourishing, would you actually name for 1750–1850? If you cannot name them from the rooms you have walked, the scheme has become a fog.'
+      ask: 'What material (instruments, print, academies), what exemplary acts, what character of habits, and what vision of flourishing would you actually name for 1750–1850? If those names cannot come from the rooms you have already walked, the four causes have become a fog.'
     },
     {
       id: 'connections',

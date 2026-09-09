@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Poor Richard Improved, 1745'
   },
   kicker: 'Week 6 · ledgers, chartered companies, a price revolution',
-  lede: 'You already have, from Larry Neal and Rondo Cameron, <em>A Concise Economic History of the World</em>, recovery, discovery, and economic nationalism. Here: how double-entry works, and a dispute about the origins of capitalism.',
+  lede: 'Larry Neal and Rondo Cameron, <em>A Concise Economic History of the World</em>, have already covered recovery, discovery, and economic nationalism. This week asks how double-entry actually works, and how historians have argued about the origins of capitalism.',
   rooms: [
     {
       id: 'bookkeeping',
@@ -28,7 +28,7 @@ WC2.registerWeek({
           { id: 'b', text: 'Debit the buyer, credit cloth (or sales) — two equal names of one fact', correct: true },
           { id: 'c', text: 'A royal tax assessment', correct: false }
         ],
-        reveal: '<p>The point is not arithmetic elegance. It is a firm that can see whether it is consistent with itself. That is a new habit, and it needs paper, literacy, and a teacher. Pacioli, a Franciscan, puts it into print in 1494; the Venetians were already doing it.</p>'
+        reveal: '<p>What matters is not arithmetic elegance. A firm can now see whether it is consistent with itself. That is a new habit, and it needs paper, literacy, and a teacher. Pacioli, a Franciscan, puts it into print in 1494; the Venetians were already doing it.</p>'
       },
       steps: [
         { title: 'The journal', html: '<p>A day-book in narrative: who, what, how paid. Medieval merchants had books. The new thing is the discipline of the pair.</p>' },
@@ -48,18 +48,18 @@ WC2.registerWeek({
           scholar: 'Max Weber',
           work: 'The Protestant Ethic (and later economy and society)',
           summary: 'A this-worldly ascetic habit, especially in certain Protestant milieus, that makes methodical acquisition a vocation. Not “Protestants get rich,” a claim about a spirit of rational conduct.',
-          html: '<p>Position (summary): look at conduct, not at first fortunes. The habit of treating work as a calling, of not spending the surplus on display, is a cultural form. Bouyer would remind you that Protestant “positive principles” have a Catholic prehistory; Weber is not a church historian.</p>'
+          html: '<p>Weber is not claiming that Protestants get rich. He is claiming that in certain Protestant milieus a habit of treating work as a calling, and of not spending the surplus on display, became a form of rational conduct. Fortunes are not the evidence; conduct is. Louis Bouyer would add that those “positive principles” have a Catholic prehistory. Weber is a sociologist of that habit, not a church historian.</p>'
         },
         {
           scholar: 'R. H. Tawney',
           work: 'Religion and the Rise of Capitalism',
           summary: 'The Reformation’s loosening of the old moral economy matters, but so do enclosures, the poor law, and the new respectability of interest.',
-          html: '<p>Position (summary): more English, more institutional than Weber. The quarrel with the old canon of usury is a legal-moral event, not only a spirit.</p>'
+          html: '<p>Tawney’s picture is more English and more institutional than Weber’s. The Reformation’s loosening of the old moral economy matters, but so do enclosures, the poor law, and the new respectability of interest. The quarrel with the old canon of usury is a legal and moral event, not only a change of spirit.</p>'
         },
         {
           scholar: 'Fernand Braudel / Immanuel Wallerstein (in the background)',
           summary: 'Long duration, world-empires vs world-economies, a European core that sets terms of trade.',
-          html: '<p>Position (summary): capitalism is a world-system with Antwerp then Amsterdam then London as successive pivots. The VOC and the English East India Company are not illustrations; they are the thing. Pomeranz later asks why China did not go first — a question that still has to pass through these European ledgers.</p>'
+          html: '<p>Braudel and Wallerstein treat capitalism as a world-system whose European core sets terms of trade, with Antwerp, then Amsterdam, then London as successive pivots. The Dutch VOC and the English East India Company are not illustrations of that system. They are how the system worked. Kenneth Pomeranz later asks why China did not go first. That question still has to pass through these European ledgers before it can be answered.</p>'
         }
       ],
       ask: 'Larry Neal and Rondo Cameron, <em>A Concise Economic History of the World</em>, have already given you prices, empires, and mercantilism. Which of these three disputes is actually about those facts, and which is a theory in search of a century?'

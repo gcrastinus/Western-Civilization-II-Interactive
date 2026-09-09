@@ -1,4 +1,4 @@
-/* One file to edit. Form: X is an example of Y because Z.
+/* One file to edit. Each entry is a work and a complete sentence about it.
    Prefer historically pointed or less-known works. Dante/Chaucer etc. only in small doses. */
 WC2.arts = {
   1: [

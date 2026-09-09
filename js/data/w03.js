@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'De legibus et consuetudinibus Angliae'
   },
   kicker: 'Week 3 · Bologna, canons, a king who is emperor in his own kingdom',
-  lede: 'You already have, from Tamar Herzog, <em>A Short History of European Law</em>, the shape of that law in the Middle Ages. Here two political uses of it: a pope’s courts as a constitution, and a king’s jurists inventing a state.',
+  lede: 'Tamar Herzog, <em>A Short History of European Law</em>, has already given the shape of that law in the Middle Ages. This week watches two political uses of it: a pope’s courts treated as a constitution, and a king’s jurists inventing a language of the state.',
   rooms: [
     {
       id: 'bologna',
@@ -45,14 +45,14 @@ WC2.registerWeek({
           scholar: 'Brian Tierney',
           years: 'essays collected as Church Law and Constitutional Thought',
           summary: 'Canonists, facing popes and emperors who might err, developed languages of consent, representation, and (later in his career) subjective rights. The road to modern constitutionalism runs through the Church’s own law.',
-          html: '<p>Position (summary): the Decretum’s treatments of a pope who becomes a heretic, the idea that a council might judge, the corporation as a persona ficta that outlives its members — these are not decorations on “real” politics. They are the tools with which later men will talk about kings. When you meet Locke, remember the canonists.</p>'
+          html: '<p>Tierney’s claim is that the Church’s own law taught later Europe how to talk about limited power. Gratian’s <em>Decretum</em> asks what happens if a pope becomes a heretic; conciliar writing asks whether a council might judge; the corporation as a <em>persona ficta</em> outlives its members. These are not decorations on “real” politics. They are the tools with which later men will talk about kings. Locke comes late in a conversation that the canonists had already begun.</p>'
         },
         {
           scholar: 'Gaines Post',
           years: '1964',
           work: 'Studies in Medieval Legal Thought — the emergence of the state',
           summary: 'Roman- and canon-law jurists in the twelfth and thirteenth centuries give kings a vocabulary of status, necessitas, and “the king is emperor in his own kingdom.”',
-          html: '<p>Position (summary): <em>rex in regno suo est imperator</em> is a lawyer’s sentence with a political aim: to stop imperial or papal claims from being the last word inside France or England or Castile. The “state” is not a nineteenth-century surprise. It is a set of maxims about what a fisc, a public good, and an emergency are. Frederick II’s <em>Liber Augustalis</em> is this vocabulary in a statute-book; so, in another accent, are Edward I’s inquiries.</p>'
+          html: '<p>Post’s claim is that twelfth- and thirteenth-century jurists gave kings a working vocabulary of public power. <em>Rex in regno suo est imperator</em> — the king is emperor in his own kingdom — is a lawyer’s sentence with a political aim: to stop imperial or papal claims from being the last word inside France, England, or Castile. The “state,” on this view, is not a nineteenth-century surprise. It is a set of maxims about what a fisc, a public good, and an emergency are. Frederick II’s <em>Liber Augustalis</em> puts that vocabulary into a statute-book. Edward I’s inquiries put it into another accent.</p>'
         }
       ],
       ask: 'Tierney is interested in limits on rulers; Post is interested in rulers becoming states. They are not opposites. Where, in Innocent III or in Bracton, do you need both?'
@@ -67,7 +67,7 @@ WC2.registerWeek({
       html:
         '<p>William of Ockham did not leave Oxford in order to become a textbook on universals. He was called to Avignon over his opinions, became entangled in the Franciscan poverty quarrel with John XXII, and in 1328 fled with Michael of Cesena to the court of Ludwig of Bavaria — the emperor at odds with the same pope.</p>' +
         '<p>At Munich he writes against John XXII: on poverty, on the source of papal power, on the possibility that a pope can fall into heresy. This is politics. He is giving a hunted emperor a clerical language in which to say that the man in Avignon is not the last judge of the Church. Marsilius of Padua is in the same orbit with a more nakedly secular <em>Defensor pacis</em>. Ockham will not go as far as Marsilius. He still wants a Church. He wants it unable to claim full dominion over poor men and emperors.</p>' +
-        '<p>If you only remember “nominalism,” you have the later schoolroom. If you remember a friar writing for Ludwig while John XXII’s sentences hang over him, you have the efficient cause of those books.</p>'
+        '<p>The later schoolroom remembers “nominalism.” The books themselves come from a friar writing for Ludwig while John XXII’s sentences hang over him.</p>'
     },
     {
       id: 'connections',

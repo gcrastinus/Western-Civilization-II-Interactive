@@ -1,6 +1,6 @@
 WC2.engines.passages = function (spec, mount) {
   const showOrig = WC2.state.langOrig;
-  const grid = WC2.el('div', { class: 'passages' });
+  const grid = WC2.el('div', { class: 'passages' + (spec.positions ? ' dispute-cards' : '') });
   let anyOrig = false;
   (spec.passages || spec.positions || []).forEach(function (p) {
     const card = WC2.el('article', { class: 'passage' + (showOrig && p.original ? ' show-orig' : '') });

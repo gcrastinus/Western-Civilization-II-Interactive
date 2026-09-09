@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'advice to his son, in Joinville, Life of Saint Louis'
   },
   kicker: 'Week 1 · courts, roads, banners, the papal-imperial quarrel',
-  lede: 'You already know, from Kevin Reilly, <em>The Human Journey</em>, the larger Eurasian setting of these centuries. Here the question is closer to the ground: who could summon whom, who could interdict a kingdom, who could take a city — Philip Augustus, a Sunday at Bouvines, a chevauchée, the last Roman siege.',
+  lede: 'Kevin Reilly, <em>The Human Journey</em>, has already set the larger Eurasian scene for these centuries. The closer question here is who could summon whom, who could close a kingdom with an interdict, and who could take a city: Philip Augustus, a Sunday at Bouvines, a chevauchée, and the last Roman siege.',
   about: '',
   rooms: [
     {
@@ -255,7 +255,7 @@ WC2.registerWeek({
       ],
       beats: [
         { t: 0, title: 'April', html: '<p>Mehmet II is twenty-one. He has a foundry, a Hungarian or Transylvanian gun-founder (Orban) who had first offered his services to the emperor, and a fleet. Constantine XI Palaiologos has a few thousand men, including Giovanni Giustiniani’s Genoese, and the Theodosian walls that had mocked earlier sieges.</p>' },
-        { t: 0.25, title: 'The chain and the hill', html: '<p>A chain closes the Horn. Mehmet has galleys dragged over greased ways behind Galata into the inner harbour. The point is not a trick for its own sake: it is to make the seaward wall a second land wall.</p>' },
+        { t: 0.25, title: 'The chain and the hill', html: '<p>A chain closes the Horn. Mehmet has galleys dragged over greased ways behind Galata into the inner harbour. The haul is not a trick for its own sake. It makes the seaward wall a second land wall.</p>' },
         { t: 0.55, title: 'The guns do not “end the Middle Ages” by themselves', html: '<p>They break towers; the defenders fill breaches at night. What the guns do is force a daily labor the small garrison cannot indefinitely repeat. Material cause: powder, oxen, a slope to sit a bombard on. Efficient cause: a sultan who will not lift the siege because his father had, and who will kill to keep the janissaries at the breach.</p>' },
         { t: 0.8, title: '29 May, before dawn', html: '<p>Irregulars first, then more regular troops, then the janissaries. Giustiniani is wounded and withdrawn; the gate he used becomes a rumour of collapse. Constantine is killed in the press — later Greek writing will not let the body be a certainty, which is itself a political fact.</p>' },
         { t: 1, title: 'The city as a capital', html: '<p>Mehmet goes to Hagia Sophia and turns it into a mosque. He also needs the city inhabited: he moves populations in. 1453 is an Ottoman beginning as much as a Roman ending. Western courts treat it as an apocalypse and then hire Ottoman alliances for the next two centuries.</p>' }
@@ -304,25 +304,25 @@ WC2.registerWeek({
           scholar: 'François-Louis Ganshof',
           years: '1944',
           work: 'Qu’est-ce que la féodalité ?',
-          summary: 'A legal-military specialist. Feudalism is a set of institutions: vassalage (a personal bond of service, typically mounted) and the fief (a tenure supporting that service). It is not a synonym for “the Middle Ages.”',
-          html: '<p>Position (summary): start from the oath and the fief, as they appear in Frankish and later legal custom. Do not melt the whole of rural life, the Church, and the towns into the word. Bouvines, on this view, is readable as a king using vassalic summons and household knights — the thing Ganshof isolated — not as “feudal society” in the lump.</p>'
+          summary: 'Feudalism, for Ganshof, is a pair of legal institutions, not a name for the whole Middle Ages.',
+          html: '<p>Ganshof treats feudalism as two institutions that appear in Frankish custom and in later law. Vassalage is a personal bond of mounted service, sealed by an oath. The fief is a tenure — land, or rights that yield income — that supports that service. Village life, the Church, and the towns may sit beside those institutions, but they are not what the word names. At Bouvines, Philip Augustus called out men who owed him that service and fought with household knights. That is Ganshof’s feudalism in the field. It is not a theory that a lump called “feudal society” produced the battle.</p>'
         },
         {
           scholar: 'Marc Bloch',
           years: '1939–40',
           work: 'La Société féodale',
-          summary: 'A whole social atmosphere: dependence, the weakening of the state, a particular tone of the sacred, a rural world of lords and peasants. Vassalage is one thread in a fabric.',
-          html: '<p>Position (summary): you cannot understand the oath if you do not understand the hunger for protection, the habit of living through other men, the way a castle reorganizes a countryside. “Feudalism” names a society, not a contract. Bloch wrote it as Europe’s states were again failing — a fact about the book’s own efficient cause, not a reason to dismiss it.</p>'
+          summary: 'For Bloch, feudalism is a whole social world of dependence, not a contract between two legal persons.',
+          html: '<p>Bloch would say that the oath is unintelligible if you lift it out of the rest of life. People sought protection from stronger men; they lived through relationships of dependence; a castle reorganized the countryside around it. Vassalage is one thread in that fabric, along with a weakened public power, a particular tone of the sacred, and a rural world of lords and peasants. “Feudalism,” on this view, names that society. Bloch wrote <em>La Société féodale</em> while European states were again failing, in 1939–40. That circumstance helps explain the book’s atmosphere. It is not a reason to set the book aside.</p>'
         },
         {
           scholar: 'Elizabeth A. R. Brown / Susan Reynolds',
           years: '1974 / 1994',
           work: 'The Tyranny of a Construct; Fiefs and Vassals',
-          summary: 'The textbook pyramid is a later legal-historical invention. Medieval people had lords, lands, and loyalties; they did not live inside a coherent “feudal system” reconstructed from sixteenth-century jurists.',
-          html: '<p>Position (summary): stop using the word as an explanation. Ask, for a given decade and county, who owed what to whom, in what court, with what documents. Innocent III’s letters and Philip’s accounts will bear that kind of question. They will not bear “because of feudalism.”</p>'
+          summary: 'The textbook pyramid is a later invention. Medieval people had lords, lands, and loyalties; they did not live inside a coherent “feudal system.”',
+          html: '<p>Brown and Reynolds argue that “feudalism” as a system was assembled by early-modern lawyers and then by textbooks. Medieval people had lords, lands, and loyalties, but they did not inhabit a pyramid reconstructed from sixteenth-century treatises. The useful question, for a given decade and county, is who owed what to whom, in what court, and on what documents. Innocent III’s letters and Philip Augustus’s accounts will answer that kind of question. They will not answer “because of feudalism.”</p>'
         }
       ],
-      ask: 'Where do they actually disagree — about the evidence, or about what a historical word is for? Try the word on Bouvines: which of the three helps, and where does it start to lie?'
+      ask: 'Do these three disagree about the evidence, or about what a historical word is for? If you apply “feudalism” to Bouvines, which of the three helps you describe the summons and the field, and at what point does the word start to mislead?'
     },
     {
       id: 'connections',
@@ -353,7 +353,7 @@ WC2.registerWeek({
       type: 'passages',
       review: true,
       blurb: 'Song China, the Islamic heartlands, and a Sunday in Flanders.',
-      html: '<p>You already hold Song China, the Islamic heartlands, and Latin Europe in one generation’s view. The question is only this: does that wide frame make Bouvines look smaller, or does it look like one of the few places where a Latin king actually concentrated force in a way those other societies, in those years, did not need to?</p>',
+      html: '<p>Kevin Reilly, <em>The Human Journey</em>, has already put Song China, the Islamic heartlands, and Latin Europe in one generation’s view. The remaining question is whether that wide frame makes Bouvines look smaller, or whether it looks like one of the few places where a Latin king actually concentrated force in a way those other societies, in those years, did not need to.</p>',
       passages: [
         {
           title: 'One generation',

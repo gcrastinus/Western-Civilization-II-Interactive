@@ -2,7 +2,7 @@ WC2.overlay = {
   'one-many': {
     title: 'The One and the Many',
     html:
-      '<p>This is a map of how peoples have conceived the world. Open it when a comparison with Islam, China, or the modern West would otherwise float free. Then close it.</p>' +
+      '<p>This is a map of how peoples have conceived the world. It is useful when a comparison with Islam, China, or the modern West would otherwise float free, and then it should be put aside so that the evidence of the week can do the work.</p>' +
       '<p>Human cultures generally begin with <strong>the many</strong>: powers and spirits as a great family, as among foragers. Then come accounts of <strong>the one</strong>.</p>' +
       '<details><summary>The One — order in the world is not treated as real</summary>' +
       '<p><strong>A.</strong> Hindu caste as a showing that we are the All.<br>' +

@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Summa theologiae I–II, q. 2, a. 1'
   },
   kicker: 'Week 2 · fairs, ploughs, plague, ledgers still in the head',
-  lede: 'You already have, from Larry Neal and Rondo Cameron, <em>A Concise Economic History of the World</em>, the Eurasian economic story, including the crisis. Here: the Champagne fair cycle, a closing frontier of clearance, and a quarrel about land and population.',
+  lede: 'Larry Neal and Rondo Cameron, <em>A Concise Economic History of the World</em>, have already given the Eurasian economic story, including the crisis. This week stays closer to the ground: the Champagne fair cycle, the closing of a frontier of clearance, and a quarrel about land and population.',
   about: '<p>Double-entry in its printed Italian form comes a little later. Here is the world in which such a method became worth teaching.</p>',
   rooms: [
     {
@@ -49,17 +49,17 @@ WC2.registerWeek({
           years: '1958',
           work: 'The Closing of the Medieval Frontier, 1250–1350',
           summary: 'Lewis (the medieval historian, not C. S. Lewis) treats forest clearance, internal colonization, crusade, reconquista, and the German east as one frontier. When it closes, a society used to extensive growth must live otherwise.',
-          html: '<p>Position (summary): for two centuries Latin Europe could grow by taking in more land and more people — assarts in the woods, new towns, the Baltic, Spain. Around the late thirteenth century that extensive margin narrows. What follows is not automatically “decline,” but a change of game: rents, famines, then plague, then a different intensity of use. The point is material cause. A culture of expanding settlement had been living off a supply of new acres. When the acres run out, the habits either change or become cruel.</p>'
+          html: '<p>Lewis argues that for about two centuries Latin Europe could grow by taking in more land and more people: clearances in the woods, new towns, the Baltic, and Spain. Around the late thirteenth century that extensive margin narrows. What follows is not automatically “decline.” It is a change of conditions: rents, famines, then plague, then a more intensive use of what land remains. A culture of expanding settlement had been living off a supply of new acres. When the acres run out, the old habits either change or become cruel.</p>'
         },
         {
           scholar: 'M. M. Postan',
           years: '1950s',
           work: 'Medieval agrarian society in its prime / land and population',
           summary: 'The English (and by extension European) medieval economy is bounded by the ratio of people to land, with diminishing returns on marginal soils.',
-          html: '<p>Position (summary): population rises through the thirteenth century onto worse land; yields per head fall; the early fourteenth century is already in trouble before the Black Death. The plague then is a demographic collapse on an overstretched agrarian base, not a bolt from a clear sky. Postan is not “against trade.” He is against telling the medieval story as if the Italian companies were the whole of it.</p>'
+          html: '<p>Postan argues that population rose through the thirteenth century onto worse land, so that yields per head fell. The early fourteenth century was already in trouble before the Black Death. The plague, on this view, is a demographic collapse on an overstretched agrarian base, not a bolt from a clear sky. Postan is not “against trade.” He is against telling the medieval story as if the Italian companies were the whole of it.</p>'
         }
       ],
-      ask: 'Lewis and Postan can be made to agree (the extensive margin closes). They can also be made to fight (is the motor land-and-people, or a whole frontier including crusade and towns?). Which fight actually helps you see the crisis you already know?'
+      ask: 'Lewis and Postan can be made to agree that the extensive margin closes. They can also be made to fight about the motor: land and people alone, or a whole frontier that includes crusade and towns. Which of those fights actually helps you see the crisis you already know from Neal and Cameron?'
     },
     {
       id: 'datini',

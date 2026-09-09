@@ -10,7 +10,7 @@ WC2.review = {
       scholar: 'Antony Black',
       work: 'The History of Islamic Political Thought / comparisons of institutions',
       summary: 'Islam and the Latin West share Greek and Roman inheritances and a revealed law; they do not share the same later pairing of corporation, church/state split, and city-republic.',
-      html: '<p>Position (summary): “Why the West?” is a bad question if it means a soul. It is a fair question if it means why certain institutions — a university that is a person in law, a church that can quarrel with an emperor without disappearing, a chartered company, a funded debt — could be stacked. China questions (Needham, Pomeranz) belong beside this, not as a scoreboard. <em>The One and the Many</em> is cosmological background, not a replacement for Black’s institutions or for a mill on the Derwent.</p>'
+      html: '<p>Black’s claim is that “Why the West?” is a bad question if it means a soul, and a fair question if it means why certain institutions could be stacked: a university that is a person in law, a church that can quarrel with an emperor without disappearing, a chartered company, a funded debt. Islam and the Latin West share Greek and Roman inheritances and a revealed law; they do not share that later pairing. Joseph Needham’s and Kenneth Pomeranz’s China questions belong beside this, as comparisons, not as a scoreboard. <em>The One and the Many</em> is cosmological background. It does not replace Black’s institutions, or a mill on the Derwent.</p>'
     }
   ],
   ask: 'Write, for yourself, three sentences: one about a battle you can now narrate, one about a demonstration you can now reconstruct, one about a dispute you can now state from both sides.'

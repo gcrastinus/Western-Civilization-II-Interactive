@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'The Theory of Moral Sentiments, 1759'
   },
   kicker: 'Week 10 · mills, poor laws, a quarrel about why Britain first',
-  lede: 'You already have, from Larry Neal and Rondo Cameron, <em>A Concise Economic History of the World</em>, industry and the institutions around it. Here: Arkwright’s patent fights, and a dispute about why this economy, here.',
+  lede: 'Larry Neal and Rondo Cameron, <em>A Concise Economic History of the World</em>, have already covered industry and the institutions around it. This week follows Arkwright’s patent fights and a dispute about why this economy took hold here first.',
   rooms: [
     {
       id: 'arkwright',
@@ -41,21 +41,21 @@ WC2.registerWeek({
         {
           scholar: 'Robert Allen (and the high-wage / cheap-energy view)',
           summary: 'Britain’s high silver wages and cheap coal make labour-saving machinery rational there first.',
-          html: '<p>Position (summary): look at relative prices. A spinning jenny in a cheap-labour region is a toy. In Lancashire it pays. This is material cause with numbers.</p>'
+          html: '<p>Allen’s claim is about relative prices. Britain’s high silver wages and cheap coal made labour-saving machinery rational there first. A spinning jenny in a cheap-labour region is a toy. In Lancashire it pays. The argument is material, and it is made with numbers.</p>'
         },
         {
           scholar: 'Institutionalists (North, and Neal-Cameron’s own emphasis)',
           summary: 'Property, banks, a state that can borrow, a law of patents that sometimes works.',
-          html: '<p>Position (summary): Arkwright’s lawsuits are the point. Without courts and credit, coal is just a rock. The legal machinery of patents and codes is the other half of the same story.</p>'
+          html: '<p>Institutionalists (Douglass North, and Neal and Cameron’s own emphasis) argue that property, banks, a state that can borrow, and a law of patents that sometimes works are what made the machines worth building. Arkwright’s lawsuits are the exhibit. Without courts and credit, coal is just a rock. The legal machinery of patents and codes is the other half of the same story as the mill.</p>'
         },
         {
           scholar: 'Karl Polanyi',
           work: 'The Great Transformation',
           summary: 'The attempt to treat land, labour, and money as fictitious commodities; a double movement of market and social protection.',
-          html: '<p>Position (summary): the poor law, Speenhamland, later factory acts, are not extras. They are the other half of the event. Cobbett belongs here as a witness, not as colour.</p>'
+          html: '<p>Polanyi’s claim is that land, labour, and money were treated as if they were ordinary commodities, which they are not. The result is a double movement: the market expands, and society protects itself. The poor law, Speenhamland, and later factory acts are not extras. They are the other half of the event. William Cobbett belongs here as a witness to that protection and that damage, not as scenery.</p>'
         }
       ],
-      ask: 'Pomeranz’s China comparison (why not the Yangzi delta?) is the global version of Allen. Stay inside the British mill long enough to know what you would be comparing.'
+      ask: 'Kenneth Pomeranz’s China comparison — why not the Yangzi delta? — is the global version of Allen’s question. What, from the British mill, would you actually need to know before that comparison could mean anything?'
     },
     {
       id: 'connections',

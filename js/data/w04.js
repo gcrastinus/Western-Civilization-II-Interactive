@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Sic et Non, prologue'
   },
   kicker: 'Week 4 · Merton, Easter tables, a brass sky you can hold',
-  lede: 'You already have, from Rens Bod, <em>World of Patterns</em>, a wide view of medieval knowledge. Here three crafts: the mean-speed theorem, the computus, and the astrolabe — and Oresme and Bradwardine put back into careers.',
+  lede: 'Rens Bod, <em>World of Patterns</em>, has already given a wide view of medieval knowledge. This week works three crafts by hand: the mean-speed theorem, the computus, and the astrolabe, and puts Oresme and Bradwardine back into the careers they actually had.',
   rooms: [
     {
       id: 'mean-speed',
@@ -59,7 +59,7 @@ WC2.registerWeek({
       demo: 'astrolabe',
       blurb: 'A model of the sky you can hang from a thumb.',
       steps: [
-        { title: 'What it is', html: '<p>A plate for your latitude, a rete of star-pointers that rotates, an alidade for sighting. Islamic astronomers perfected the form Latin Europe then used in schools. Chaucer wrote a treatise on it for his son. The point is the instrument.</p>', rot: 10 },
+        { title: 'What it is', html: '<p>A plate for your latitude, a rete of star-pointers that rotates, an alidade for sighting. Islamic astronomers perfected the form Latin Europe then used in schools. Chaucer wrote a treatise on it for his son. Without the instrument, “knowing the heavens” is a poem; with it, a clerk can read an hour from a star.</p>', rot: 10 },
         { title: 'A measurement', html: '<p>Sight a known star, read its altitude, turn the rete until that star lies on the right almucantar, read the hour. Time is a position. Night-watches, prayer, and later navigation all drink from this.</p>', rot: 40 },
         { title: 'Material cause', html: '<p>Brass, a workshop, a latitude. Without those, “knowing the heavens” is a poem. With them, a clerk in Oxford and a pilot in Genoa share a craft. The culture can now have habits (hours, fasts, sailings) it could not have had as precisely.</p>', rot: 70 }
       ]
@@ -76,13 +76,13 @@ WC2.registerWeek({
           scholar: 'R. W. Southern',
           work: 'Medieval Humanism and Other Studies',
           summary: 'Twelfth-century humanism is a concern with human nature, friendship, letter-writing, the dignity of the person in a Christian cosmos — Abelard, John of Salisbury, the schools — without being a revolt against the sacred.',
-          html: '<p>Position (summary): do not wait for Petrarch to find men interested in men. The twelfth century already has a learned culture of the self, of counsel, of classical quotation used as a living tongue. It is not Burckhardt’s individual. It is a clerk’s humanism.</p>'
+          html: '<p>Southern’s claim is that you do not need to wait for Petrarch to find men interested in men. The twelfth century already has a learned culture of the self, of counsel, and of classical quotation used as a living tongue: Abelard, John of Salisbury, the schools. This is not Burckhardt’s modern individual throwing off a medieval veil. It is a clerk’s humanism inside a Christian cosmos.</p>'
         },
         {
           scholar: 'M.-D. Chenu',
           work: 'The evangelical awakening',
           summary: 'The same century’s motor is apostolic: poverty, preaching, the gospel as a form of life in towns. The friars are not an extra. They are the religious form of an urban world.',
-          html: '<p>Position (summary): schools without the evangelical awakening are a partial picture. Men and women try to live the apostolic life in cities that now exist. Francis and Dominic are political as well as holy: they answer heresy and wealth by a new kind of order that can walk a street. Material cause again — there have to be streets.</p>'
+          html: '<p>Chenu’s claim is that schools without the evangelical awakening are only half the picture. In the same century, men and women try to live the apostolic life in cities that now exist. Francis and Dominic are political as well as holy: they answer heresy and wealth by a new kind of order that can walk a street. That order needs streets. Without towns, the friars have nowhere to preach in the way they did.</p>'
         }
       ],
       ask: 'Southern’s clerk and Chenu’s friar can inhabit one town. When you speak of “medieval thought,” which of the two are you actually describing?'

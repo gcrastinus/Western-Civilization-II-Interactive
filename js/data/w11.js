@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Commentaries on the Laws of England, Book IV'
   },
   kicker: 'Week 11 · codes, a discours préliminaire, Savigny against a German code',
-  lede: 'You already have, from Tamar Herzog, <em>A Short History of European Law</em>, the path from the 1750s. Here: Portalis and the Civil Code, the American constitution as a legal event, and the Savigny–Thibaut quarrel.',
+  lede: 'Tamar Herzog, <em>A Short History of European Law</em>, has already traced the path from the 1750s. This week follows Portalis and the Civil Code, the American constitution as a legal event, and the quarrel between Savigny and Thibaut.',
   rooms: [
     {
       id: 'portalis',
@@ -31,7 +31,7 @@ WC2.registerWeek({
       },
       html:
         '<p>Jean-Étienne-Marie Portalis (1746–1807) is a Provençal advocate, a moderate in the Revolution, a deportee, then Napoleon’s choice to help draft the Civil Code. His aim is a France in which families, property, and contracts are readable without a local coutume and without a new decree every week. The Code is a weapon against both the old maze and the revolutionary habit of legislation as virtue.</p>' +
-        '<p>Napoleon as captain you have seen. Napoleon as a man who sits on the Conseil and argues articles is the same career in another room. Do not let Austerlitz steal the Code.</p>'
+        '<p>Napoleon as captain you have already seen. Napoleon sitting on the Conseil and arguing articles is the same career in another room. Austerlitz does not replace the Code.</p>'
     },
     {
       id: 'savigny',
@@ -45,19 +45,19 @@ WC2.registerWeek({
           scholar: 'A. F. J. Thibaut',
           years: '1814',
           summary: 'After the Wars of Liberation, Germany needs a single civil code, on the French model in ambition if not in copy, to be a nation in law.',
-          html: '<p>Position (summary): unity is a legal act. Waiting for a “spirit of the people” to ripen is a way of remaining a patchwork while France has a book.</p>'
+          html: '<p>Thibaut’s claim, in 1814, is that after the Wars of Liberation Germany needs a single civil code, on the French model in ambition if not in copy, if it is to be a nation in law. Unity, on this view, is a legal act. Waiting for a “spirit of the people” to ripen is a way of remaining a patchwork while France already has a book.</p>'
         },
         {
           scholar: 'Friedrich Carl von Savigny',
           years: '1814',
           work: 'Of the Vocation of Our Age for Legislation and Jurisprudence',
           summary: 'Law is the organic product of a people’s history (the Volksgeist). This age should study, especially Roman law as received in Germany, not manufacture a code.',
-          html: '<p>Position (summary): a code now would be a thin French garment on a German body. The historical school is a politics of delay and of scholarship as national work. It is also a claim about what law is — not command, custom-with-a-memory.</p>'
+          html: '<p>Savigny answers that law is the organic product of a people’s history, the <em>Volksgeist</em>. This age should study, especially Roman law as received in Germany, not manufacture a code. A code now, he says, would be a thin French garment on a German body. The historical school is a politics of delay, and of scholarship as national work. It is also a claim about what law is: not command, but custom with a memory.</p>'
         },
         {
           scholar: 'The American contrast',
           summary: 'A written constitution (1787) that is not a civil code; Marshall’s court teaching the country to read it as law.',
-          html: '<p>Position (summary): the US instrument is a frame for a federal republic, with a Bill of Rights added as a political bargain. It is not Portalis’s book of private life. Comparing them as “two modern codes” is a category error. Comparing them as two ways of putting a revolutionary generation on paper is fair.</p>'
+          html: '<p>The United States instrument of 1787 is a frame for a federal republic. The Bill of Rights was added as a political bargain. It is not Portalis’s book of private life — families, property, contracts. To compare the two as “two modern codes” is a category error. To compare them as two ways of putting a revolutionary generation on paper is fair.</p>'
         }
       ],
       ask: 'Bentham called natural rights “nonsense upon stilts.” Tierney has already shown you a longer rights-language. In Tamar Herzog, <em>A Short History of European Law</em>, where is the live fight — codes, rights, or the profession of the judge?'

@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Reflections on the Revolution in France, 1790'
   },
   kicker: 'Week 9 · three Napoleonic afternoons, and a quarrel about what 1776 ignited',
-  lede: 'You already know, from Kevin Reilly, <em>The Human Journey</em>, the first modern societies and the disturbance of empires. Here: Austerlitz, Leipzig, and Waterloo as captains’ work, and a quarrel about what 1776 ignited.',
+  lede: 'Kevin Reilly, <em>The Human Journey</em>, has already set the first modern societies and the disturbance of empires. This week treats Austerlitz, Leipzig, and Waterloo as captains’ work, and asks what 1776 ignited.',
   rooms: [
     {
       id: 'austerlitz',
@@ -123,7 +123,7 @@ WC2.registerWeek({
             { t: 0, title: 'A cleaner retreat', html: '<p>More of the army reaches the Rhine intact.</p>' },
             { t: 1, title: 'The campaign still lost', html: '<p>Germany is gone either way. The blown bridge makes a disaster picturesque. It does not decide that the 1813 allies have more men and more reasons.</p>' }
           ],
-          verdict: 'Tactical salvage, not a reversed war. Do not let a bridge steal the coalition’s achievement.'
+          verdict: 'An hour more of the bridge would have been a tactical salvage, not a reversed war. The coalition’s achievement is the campaign, not the accident of a blown crossing.'
         }
       ]
     },
@@ -194,18 +194,18 @@ WC2.registerWeek({
           scholar: 'Jonathan Israel',
           work: 'The Expanding Blaze',
           summary: 'The American Revolution as a transmitter of Radical Enlightenment: a democratic, secularizing, universalist fire that then lights Europe and the Atlantic through 1848.',
-          html: '<p>Position (summary): look at Paine, at the more democratic state constitutions, at the Haitian and European aftershocks. 1776 is not a conservative tax revolt. It is a philosophy with armies.</p>'
+          html: '<p>Israel reads 1776 as a transmitter of Radical Enlightenment: a democratic, secularizing, universalist fire that then lights Europe and the Atlantic through 1848. The exhibits are Paine, the more democratic state constitutions, and the Haitian and European aftershocks. On this view the American Revolution is not a conservative tax revolt. It is a philosophy that had armies.</p>'
         },
         {
           scholar: 'Jack P. Greene and the institutional school',
           work: 'The Constitutional Origins of the American Revolution',
           summary: 'The quarrel is first a quarrel about the British constitution in the empire: charters, assemblies, the reach of Parliament. Ideas matter; they are not a Paris salon transplanted.',
-          html: '<p>Position (summary): start from provincial practice, not from Spinoza. The later “blaze” is real in places; it is not the whole of the American event. Burke can admire 1776 and abominate 1790 because he thinks they are different species.</p>'
+          html: '<p>Greene’s claim is that the quarrel began as a quarrel about the British constitution in the empire: charters, assemblies, and the reach of Parliament. Provincial practice, not Spinoza, is the place to begin. Ideas matter; they are not a Paris salon transplanted. The later “blaze” is real in places, but it is not the whole of the American event. Burke can admire 1776 and abominate 1790 because he thinks they are different species of revolution.</p>'
         },
         {
           scholar: 'Contesting the French Revolution (Hanson and the readers in the folder)',
           summary: '1789–94 is itself a field of arguments: political culture, circumstance, ideology, contingency.',
-          html: '<p>Position (summary): do not let 1776 or 1789 become a single flame. The rooms of weeks 9–11 will keep handing you legal and economic machinery that will not melt into a blaze.</p>'
+          html: '<p>Readers of the French Revolution (Paul Hanson and others in the course folder) treat 1789–94 as a field of arguments about political culture, circumstance, ideology, and contingency. 1776 and 1789 are not a single flame. The legal and economic machinery of the next two weeks — codes, patents, mills — will not melt into a blaze either.</p>'
         }
       ],
       ask: 'Tocqueville’s equality-arc can host both Israel and Greene. Which one does it actually support once you remember the clergy, the lawyers, and the financiers of the Introduction — not the later chapters on America?'

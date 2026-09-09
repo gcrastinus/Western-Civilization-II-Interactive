@@ -9,7 +9,7 @@ WC2.registerWeek({
     source: 'Letter to the Grand Duchess Christina, 1615'
   },
   kicker: 'Week 8 · a groove, four attendants, a draper’s lens, a well at Pompeii',
-  lede: 'You already have, from Rens Bod, <em>World of Patterns</em>, a survey of early-modern knowledge. Here: Galileo’s plane, the moons of Jupiter, Leeuwenhoek’s lens, Pompeii as a hole in the ground, and a dispute about whether there was a Scientific Revolution.',
+  lede: 'Rens Bod, <em>World of Patterns</em>, has already surveyed early-modern knowledge. This week works through Galileo’s plane, the moons of Jupiter, Leeuwenhoek’s lens, Pompeii as a hole in the ground, and a dispute about whether there was a Scientific Revolution.',
   rooms: [
     {
       id: 'incline',
@@ -28,7 +28,7 @@ WC2.registerWeek({
           { id: 'b', text: 'How a mathematician-courtier may teach a cosmology that seems to judge Scripture and that has a Medici and then a Barberini as patrons', correct: true },
           { id: 'c', text: 'Leeuwenhoek’s animalcules', correct: false }
         ],
-        reveal: '<p>The plane is a Padua and Florence craft. The trial is a Roman political-theological event (1616, then 1632–33) about <em>The Assayer</em>’s tone, the <em>Dialogue</em>’s Simplicio, and a pope who had been a patron. Do not collapse the demonstration and the trial. Do not separate them entirely either: Galileo sought princely protection because cosmology was public.</p>'
+        reveal: '<p>The plane is a Padua and Florence craft. The trial is a Roman political-theological event (1616, then 1632–33) about <em>The Assayer</em>’s tone, the <em>Dialogue</em>’s Simplicio, and a pope who had been a patron. The demonstration and the trial are not the same event, and they are not unrelated. Galileo sought princely protection because cosmology was public.</p>'
       },
       steps: [
         { title: 'The groove', html: '<p>A long beam, a parchment lining to lessen friction, a bronze ball. Time is measured by weight of water. Distances in equal times go 1, 3, 5, 7… so the spaces from rest go 1, 4, 9, 16. That is the law of odd numbers, the mean-speed tradition made into an experiment you can hear if you put bells along the rail.</p>', t: 1 },
@@ -89,21 +89,21 @@ WC2.registerWeek({
           scholar: 'Thomas Kuhn',
           work: 'The Structure of Scientific Revolutions',
           summary: 'Normal science in a paradigm; anomaly; crisis; a new paradigm that is not a simple accumulation. The book is about communities, not lone geniuses.',
-          html: '<p>Position (summary): Galileo’s plane is not “just more Merton.” It is a new way of disciplining a community of practitioners. Whether 1543–1687 is one revolution or several is a later historiographical fight; Kuhn gives you the shape of a fight.</p>'
+          html: '<p>Kuhn’s claim is that Galileo’s plane is not simply more of the Merton mean-speed tradition. It is a new way of disciplining a community of practitioners: a paradigm, then anomaly, then crisis, then a new paradigm that is not a simple accumulation. Whether 1543–1687 is one revolution or several is a later fight among historians. Kuhn’s book describes the shape of that kind of fight, not a calendar of geniuses.</p>'
         },
         {
           scholar: 'Continuists (Grant, Hannam, and the medievalists)',
           summary: 'The medieval arts faculty already quantified motion; the seventeenth century is an intensification, not a birth from nothing.',
-          html: '<p>Position (summary): you have now seen the mean-speed theorem with your hands. The continuist is not wrong that the tools exist. He may still underplay patronage, print, instruments, and the new public of academies (Cimento, Royal Society, Académie des sciences).</p>'
+          html: '<p>The continuists (Edward Grant, James Hannam, and others) point back to the medieval arts faculty, which already quantified motion. You have already seen the mean-speed theorem as a craft. They are not wrong that the tools exist. They may still underplay what is new: patronage, print, instruments, and the public of academies (the Cimento, the Royal Society, the Académie des sciences). On this view the seventeenth century is an intensification, not a birth from nothing.</p>'
         },
         {
           scholar: 'Steven Shapin',
           work: 'The Scientific Revolution (the book that begins “there was no such thing”)',
           summary: 'The capital-letter event is a later label. What there was: new practices of trust, witnessing, experiment as a social form.',
-          html: '<p>Position (summary): Leeuwenhoek’s letters are the point. Knowledge is made by people who have to believe one another. The “revolution” is a story English and French publics tell themselves.</p>'
+          html: '<p>Shapin’s opening line is that there was no such thing as the Scientific Revolution. What there was, he says, were new practices of trust, witnessing, and experiment as a social form. Leeuwenhoek’s letters to the Royal Society are the exhibit: a Delft draper writing in Dutch, and London fellows who have to decide whether to believe him. The capital-letter “revolution” is a story that English and French publics later told themselves.</p>'
         }
       ],
-      ask: 'Descartes (whose life — army, Dutch towns, Queen Christina — is not a footnote to the <em>cogito</em>) belongs in this quarrel as a man who wanted a physics a gentleman could trust. Where would you seat him?'
+      ask: 'Descartes wanted a physics a gentleman could trust. His life — the army, Dutch towns, Queen Christina — is part of that want, not a footnote to the <em>cogito</em>. On which of these three views does he sit most comfortably, and why?'
     },
     {
       id: 'connections',

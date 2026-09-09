@@ -159,7 +159,7 @@ WC2.renderRoom = function (week, room, mount) {
     else if (room.type === 'connections') {
       const ul = WC2.el('ul', { class: 'connections' });
       (WC2.arts[week.id] || room.items || []).forEach(function (c) {
-        ul.appendChild(WC2.el('li', { html: '<strong>' + c.work + '</strong> is an example of ' + c.of + ' because ' + c.because }));
+        ul.appendChild(WC2.el('li', { html: '<strong>' + c.work + '.</strong> ' + c.because }));
       });
       mount.appendChild(ul);
     } else if (room.type === 'resources') {
