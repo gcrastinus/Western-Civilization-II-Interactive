@@ -135,11 +135,11 @@ WC2.registerWeek({
             { id: 'ot-center', side: 'imp', label: 'Otto + Ferrand + Salisbury as one', path: [{ t: 0, x: 82, y: 46 }, { t: 0.45, x: 64, y: 46 }, { t: 1, x: 50, y: 46 }] }
           ],
           beats: [
-            { t: 0, title: 'The obvious move', html: '<p>Three allied forces arrive together and ride straight into the French column on the causeway.</p>' },
+            { t: 0, title: 'What everyone can see', html: '<p>Three allied forces arrive together and ride straight into the French column on the causeway.</p>' },
             { t: 0.5, title: 'What the allies actually lacked', html: '<p>They did not share a command. Ferrand wanted Flemish revenge and towns; Otto wanted a field and a captured king; Salisbury wanted John’s Angevin belt restored. A dawn charge as one body assumes a staff that did not exist.</p>' },
             { t: 1, title: 'The enemy’s reply', html: '<p>Even a cleaner charge meets the same French household that did, in the event, close over an unhorsed king. Philip’s advantage was not the map; it was a core of men who fought as his men. The coalition could have made the day bloodier. It is not clear they could have made it theirs without becoming a single army, which is what they were not.</p>' }
           ],
-          verdict: 'The “obvious” concentrated attack was not available to a coalition that had not practiced being one army. That is the point of Bouvines as politics, not as sport.'
+          verdict: 'A concentrated attack was not available to men who had never practised being one army. That is what makes Bouvines politics rather than sport.'
         },
         {
           title: 'If Philip had refused battle',
@@ -206,8 +206,8 @@ WC2.registerWeek({
             { id: 'ed', side: 'en', label: 'Edward, eating his supplies', path: [{ t: 0, x: 50, y: 27 }, { t: 1, x: 48, y: 22 }] }
           ],
           beats: [
-            { t: 0, title: 'The obvious caution', html: '<p>Several of Philip’s advisers said as much. A king of France who waits looks weak to the men who have ridden to be seen charging.</p>' },
-            { t: 1, title: 'Edward’s reply', html: '<p>Edward cannot sit on a ridge in Ponthieu forever. Delay forces him toward the sea or toward a riskier move. Waiting was the better French military idea. It was a worse piece of chivalric politics for a Valois who had to look like a suzerain. The “obvious” alternative collides with why the army was there: to ride down an invader in sight of the host.</p>' }
+            { t: 0, title: 'The counsel of prudence', html: '<p>Several of Philip’s advisers said as much. A king of France who waits looks weak to the men who have ridden to be seen charging.</p>' },
+            { t: 1, title: 'Edward’s reply', html: '<p>Edward cannot sit on a ridge in Ponthieu forever. Delay forces him toward the sea or toward a riskier move. Waiting was the better French military idea. It was a worse piece of chivalric politics for a Valois who had to look like a suzerain. Patience collides with the reason the army was there at all: to ride an invader down in sight of the host.</p>' }
           ],
           verdict: 'Tactical patience was available. The Valois courtly-military habit made it expensive. Crécy is among other things a lesson in formal cause: a nobility whose honor is a charge will charge.'
         },
@@ -216,7 +216,7 @@ WC2.registerWeek({
           premise: 'Do what the English did: dismount the men-at-arms, make a hedged line of their own.',
           beats: [
             { t: 0, title: 'Copy the instrument', html: '<p>They will in fact learn this — Poitiers is still ten years off, and even then the learning is incomplete. In 1346 the French political advantage is cavalry shock, the thing that makes a noble a noble on a field.</p>' },
-            { t: 1, title: 'Why it was not obvious to them', html: '<p>To dismount is to accept that the English have changed what a battle is. That acceptance is a later, bitter acquisition. Instruments (longbow, dismounting, palings) are material cause; using them against one’s own self-image is another matter.</p>' }
+            { t: 1, title: 'Why they could not see it that way', html: '<p>To dismount is to accept that the English have changed what a battle is. That acceptance is a later, bitter acquisition. Instruments (longbow, dismounting, palings) are material cause; using them against one’s own self-image is another matter.</p>' }
           ],
           verdict: 'The counterfactual asks a 1346 nobility to cease, for an afternoon, to be that nobility. Some later did. That is why the war lasts a hundred years, not an afternoon.'
         }
@@ -263,7 +263,7 @@ WC2.registerWeek({
       counterfactuals: [
         {
           title: 'If a Venetian relief fleet had arrived in April',
-          premise: 'The obvious Western thought: Christendom should have saved the city.',
+          premise: 'The thought every Western account reaches for: Christendom should have saved the city.',
           beats: [
             { t: 0, title: 'Venice’s clock', html: '<p>Venice did send ships — late. A commercial republic does not empty its yards because a humanist writes to a pope. The delay is not a mystery of cowardice; it is a state with other wars and a ledger.</p>' },
             { t: 1, title: 'Mehmet’s reply', html: '<p>A fleet in the Horn in April would have made the overland haul less useful and the seaward assault harder. It would not have filled the land walls with men. The city’s disease was numbers. Ships do not become garrison.</p>' }
@@ -277,17 +277,18 @@ WC2.registerWeek({
             { t: 0, title: 'The offered lesser life', html: '<p>Ottoman practice often left a local lord in place. Constantine’s refusal is the last act of a man whose title is still “Roman emperor.”</p>' },
             { t: 1, title: 'What yielding would have been', html: '<p>It would have spared some streets. It would also have ended the empire as a claim. Constantine’s politics are the walls. That is not romance; it is what the office had left to do.</p>' }
           ],
-          verdict: 'The “sensible” surrender is sensible for a city. It is not available to an emperor whose only remaining capital is the name.'
+          verdict: 'Surrender is sensible advice to a city and useless advice to an emperor whose last remaining capital is the title itself.'
         }
       ]
     },
     {
       id: 'feudalism',
       title: 'What is feudalism?',
-      nav: 'Dispute: feudalism',
-      kind: 'dispute',
-      type: 'dispute',
-      blurb: 'Ganshof, Bloch, and the revolt against the word.',
+      nav: 'Contest: feudalism',
+      kind: 'contest',
+      type: 'contest',
+      contestId: 'feudalism',
+      blurb: 'Ganshof, Bloch, the revolt against the word, and the quarrel over the year 1000.',
       question: {
         id: 'w01-q-feud',
         kind: 'mc',
@@ -297,32 +298,8 @@ WC2.registerWeek({
           { id: 'b', text: 'Which cluster of practices is being named — tenure, lordship, or a whole social order', correct: true },
           { id: 'c', text: 'Whether Marx already explained it', correct: false }
         ],
-        reveal: '<p>They did not call their world “feudalism.” That does not settle whether we may name it. It does require us to say what we are naming. The three positions below disagree about that.</p>'
-      },
-      positions: [
-        {
-          scholar: 'François-Louis Ganshof',
-          years: '1944',
-          work: 'Qu’est-ce que la féodalité ?',
-          summary: 'Feudalism, for Ganshof, is a pair of legal institutions, not a name for the whole Middle Ages.',
-          html: '<p>Ganshof treats feudalism as two institutions that appear in Frankish custom and in later law. Vassalage is a personal bond of mounted service, sealed by an oath. The fief is a tenure — land, or rights that yield income — that supports that service. Village life, the Church, and the towns may sit beside those institutions, but they are not what the word names. At Bouvines, Philip Augustus called out men who owed him that service and fought with household knights. That is Ganshof’s feudalism in the field. It is not a theory that a lump called “feudal society” produced the battle.</p>'
-        },
-        {
-          scholar: 'Marc Bloch',
-          years: '1939–40',
-          work: 'La Société féodale',
-          summary: 'For Bloch, feudalism is a whole social world of dependence, not a contract between two legal persons.',
-          html: '<p>Bloch would say that the oath is unintelligible if you lift it out of the rest of life. People sought protection from stronger men; they lived through relationships of dependence; a castle reorganized the countryside around it. Vassalage is one thread in that fabric, along with a weakened public power, a particular tone of the sacred, and a rural world of lords and peasants. “Feudalism,” on this view, names that society. Bloch wrote <em>La Société féodale</em> while European states were again failing, in 1939–40. That circumstance helps explain the book’s atmosphere. It is not a reason to set the book aside.</p>'
-        },
-        {
-          scholar: 'Elizabeth A. R. Brown / Susan Reynolds',
-          years: '1974 / 1994',
-          work: 'The Tyranny of a Construct; Fiefs and Vassals',
-          summary: 'The textbook pyramid is a later invention. Medieval people had lords, lands, and loyalties; they did not live inside a coherent “feudal system.”',
-          html: '<p>Brown and Reynolds argue that “feudalism” as a system was assembled by early-modern lawyers and then by textbooks. Medieval people had lords, lands, and loyalties, but they did not inhabit a pyramid reconstructed from sixteenth-century treatises. The useful question, for a given decade and county, is who owed what to whom, in what court, and on what documents. Innocent III’s letters and Philip Augustus’s accounts will answer that kind of question. They will not answer “because of feudalism.”</p>'
-        }
-      ],
-      ask: 'Do these three disagree about the evidence, or about what a historical word is for? If you apply “feudalism” to Bouvines, which of the three helps you describe the summons and the field, and at what point does the word start to mislead?'
+        reveal: '<p>They did not call their world “feudalism.” That does not settle whether we may name it. It does require us to say what we are naming — and the scholars in this room disagree about that before they disagree about anything else.</p>'
+      }
     },
     {
       id: 'connections',

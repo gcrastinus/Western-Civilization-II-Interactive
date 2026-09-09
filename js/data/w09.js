@@ -60,7 +60,7 @@ WC2.registerWeek({
           title: 'If the Allies had stayed on the Pratzen',
           beats: [
             { t: 0, title: 'Kutuzov’s preference', html: '<p>Wait, keep the height, let Napoleon attack uphill, give Prussia time.</p>' },
-            { t: 1, title: 'Napoleon’s reply', html: '<p>He cannot wait forever either — supply, the political need for a victory in the season of the new crown. A stay-put Allied army is a worse target. It is also a worse story for a tsar in the field. The “obvious” attack is a courtly need.</p>' }
+            { t: 1, title: 'Napoleon’s reply', html: '<p>He cannot wait forever either — supply, the political need for a victory in the season of the new crown. A stay-put Allied army is a worse target. It is also a worse story for a tsar in the field. The attack that looks tactically foolish answers a need at court.</p>' }
           ],
           verdict: 'The sensible Allied course was inaction. Their coalition’s honour made it expensive. Napoleon’s trap is built of that honour.'
         },
@@ -105,7 +105,7 @@ WC2.registerWeek({
       ],
       beats: [
         { t: 0, title: 'After Russia', html: '<p>1812 has eaten the Grande Armée. 1813 is a German war of new Prussian levies, Austrian re-entry, Bernadotte (once Napoleon’s marshal) with a Swedish army, and a Trachenberg plan: do not fight Napoleon in person; fight his marshals; converge.</p>' },
-        { t: 0.5, title: 'Numbers', html: '<p>For once the coalition has them, and uses them on several roads. Leipzig is not a clever empty height. It is a city ringed until the ring closes. The Saxons’ defection in the line is a political event inside the battle.</p>' },
+        { t: 0.5, title: 'Numbers', html: '<p>For once the coalition has them, and uses them on several roads. Leipzig has no clever empty height in it. It is a city ringed until the ring closes. The Saxons’ defection in the line is a political event inside the battle.</p>' },
         { t: 1, title: 'The blown bridge', html: '<p>A corporal, or a panicked engineer, blows the Elster bridge too soon. French rear-guard is trapped. The captain who had made armies live on the march loses a river crossing to haste. Leipzig is the beginning of the end in Germany; it is not yet Waterloo.</p>' }
       ],
       counterfactuals: [
@@ -115,7 +115,7 @@ WC2.registerWeek({
             { t: 0, title: 'The old habit', html: '<p>This is what he wanted. It is Austerlitz’s coalition, again.</p>' },
             { t: 1, title: 'They had learned', html: '<p>The Trachenberg plan is the counterfactual they refused. Learning from 1805 is a political achievement (Metternich, Bernadotte, a tsar who would not go home), not a staff-college slogan.</p>' }
           ],
-          verdict: 'The “obvious” heroic march against the emperor in person is how they used to lose. Leipzig is what a coalition looks like when it has stopped being obvious.'
+          verdict: 'Marching heroically at the emperor in person is how the allies had been losing for eight years. Leipzig is what a coalition looks like once it has stopped doing the brave thing.'
         },
         {
           title: 'If the bridge had stood an hour longer',
@@ -167,8 +167,8 @@ WC2.registerWeek({
         {
           title: 'If he had attacked at dawn despite the mud',
           beats: [
-            { t: 0, title: 'The obvious haste', html: '<p>Beat Wellington before Blücher can march.</p>' },
-            { t: 1, title: 'The guns', html: '<p>His method is artillery. Dawn mud steals it. The “obvious” early attack is an attack without his arm. He might still have won a messy fight. He would not have had Austerlitz’s instrument.</p>' }
+            { t: 0, title: 'Strike before the Prussians', html: '<p>Beat Wellington before Blücher can march.</p>' },
+            { t: 1, title: 'The guns', html: '<p>His method is artillery. Dawn mud steals it. An attack at first light is an attack without his best arm. He might still have won a messy fight. He would not have had Austerlitz’s instrument.</p>' }
           ],
           verdict: 'Haste against Wellington without guns versus patience against a coming Prussian army: both are bad. That is the real situation, not a missed trick.'
         },
@@ -191,23 +191,42 @@ WC2.registerWeek({
       blurb: 'Israel’s Expanding Blaze against a more constitutional, less radical America.',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'Jonathan Israel',
           work: 'The Expanding Blaze',
           summary: 'The American Revolution as a transmitter of Radical Enlightenment: a democratic, secularizing, universalist fire that then lights Europe and the Atlantic through 1848.',
           html: '<p>Israel reads 1776 as a transmitter of Radical Enlightenment: a democratic, secularizing, universalist fire that then lights Europe and the Atlantic through 1848. The exhibits are Paine, the more democratic state constitutions, and the Haitian and European aftershocks. On this view the American Revolution is not a conservative tax revolt. It is a philosophy that had armies.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'Jack P. Greene and the institutional school',
           work: 'The Constitutional Origins of the American Revolution',
           summary: 'The quarrel is first a quarrel about the British constitution in the empire: charters, assemblies, the reach of Parliament. Ideas matter; they are not a Paris salon transplanted.',
           html: '<p>Greene’s claim is that the quarrel began as a quarrel about the British constitution in the empire: charters, assemblies, and the reach of Parliament. Provincial practice, not Spinoza, is the place to begin. Ideas matter; they are not a Paris salon transplanted. The later “blaze” is real in places, but it is not the whole of the American event. Burke can admire 1776 and abominate 1790 because he thinks they are different species of revolution.</p>'
         },
         {
+          stance: 'complementary',
           scholar: 'Contesting the French Revolution (Hanson and the readers in the folder)',
           summary: '1789–94 is itself a field of arguments: political culture, circumstance, ideology, contingency.',
           html: '<p>Readers of the French Revolution (Paul Hanson and others in the course folder) treat 1789–94 as a field of arguments about political culture, circumstance, ideology, and contingency. 1776 and 1789 are not a single flame. The legal and economic machinery of the next two weeks — codes, patents, mills — will not melt into a blaze either.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Bernard Bailyn and Gordon Wood',
+          years: '1967\u201392',
+          work: 'The Ideological Origins of the American Revolution; The Radicalism of the American Revolution',
+          summary: 'The colonists read themselves into a British opposition tradition \u2014 country-party fear of corruption and standing armies \u2014 and then found they had made something more radical than they intended.',
+          html: '<p>Bailyn read the pamphlets and found not Spinoza but Cato\u2019s Letters: a language of conspiracy against liberty, of placemen and standing armies, inherited from English radical Whigs. Wood then argued that a revolt begun in that idiom dissolved the deference on which colonial society ran, so that the result was more democratic than the men who made it had wanted. Complementary to Greene because both start from the empire; opposing to Israel because the fuse is English rather than continental.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'The Atlantic and Haitian frame',
+          work: 'C. L. R. James; Laurent Dubois; Trouillot',
+          summary: 'The revolution that tested the universal claims was the one in Saint-Domingue, and it is the one European writing found hardest to see.',
+          html: '<p>A slave revolt that became a war of independence and abolished slavery before any metropolitan power did puts the declarations of 1776 and 1789 to their sharpest test. Michel-Rolph Trouillot argued that contemporaries could not narrate it because it was outside what they thought possible, which is a claim about how history gets written as well as about what happened. Israel counts Haiti as the blaze spreading; the counter-reading is that the enslaved were making an argument the philosophes had not made for them.</p>'
         }
       ],
+      shifts: '<p>The nineteenth century made 1776 constitutional and 1789 philosophical, and kept them apart. Bailyn found an ideology in the American pamphlets; Wood found a social revolution inside a political one; Israel joined the two revolutions to a single seventeenth-century fuse; the Atlantic historians added the one that ended slavery. What the quarrel now turns on is scope: whether these are three national events with a family resemblance or one long argument conducted in several languages.</p>',
       ask: 'Tocqueville’s equality-arc can host both Israel and Greene. Which one does it actually support once you remember the clergy, the lawyers, and the financiers of the Introduction — not the later chapters on America?'
     },
     {

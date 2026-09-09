@@ -53,17 +53,36 @@ WC2.registerWeek({
       blurb: 'Tierney against the textbook that starts in 1690.',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'Brian Tierney',
           work: 'The Idea of Natural Rights',
           summary: 'Subjective rights — a faculty belonging to a person — are spoken in medieval canon law and in the Franciscan poverty debates (including Ockham’s world), long before the seventeenth century.',
           html: '<p>Tierney’s claim is that if the story of rights begins with Hobbes and Locke, the plot has already been lost. Medieval canonists and the Franciscan poverty debates spoke of <em>ius</em> as a power belonging to a person, of poverty as a renunciation of rights, and of consent. That vocabulary is the grammar of later “modern” talk. Locke is late in the conversation, not the first speaker.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'The early-modern “absolutist” reading',
           summary: 'Bodin’s République, the French legists, James I’s own tracts: majesty is indivisible; rights are concessions.',
           html: '<p>Against Tierney, this reading says that whatever the canonists said, the sixteenth and seventeenth centuries hardened command: fiscal, military, and confessional. Bodin’s majesty is indivisible; rights look like concessions. Helmut Koenigsberger and others reply that “absolutism” itself covers very uneven reach. A French intendant is not a Russian autocrat, and an English king who cannot tax without Parliament is something else again.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Michel Villey',
+          years: '1946\u201375',
+          work: 'the nominalist thesis',
+          summary: 'Subjective right is a late medieval mistake. Classical and Thomist <em>ius</em> means the just thing itself \u2014 an objective share \u2014 and Ockham turned it into a power belonging to an individual.',
+          html: '<p>Villey is the position Tierney spent a career answering, and the strongest case against him. On Villey\u2019s account Aristotle and Aquinas ask what is due in a relation \u2014 the right thing, not a possession \u2014 and the Franciscan poverty quarrel forced Ockham to invent a subjective faculty in order to describe a friar who used goods without owning them. Everything modern about rights follows from that turn, and follows as a loss. Tierney answers from the canonists that the subjective sense is older than Ockham and does not require nominalism. The question is still live, and it is theological as much as legal.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Quentin Skinner and the Cambridge school',
+          years: '1978\u2013',
+          work: 'The Foundations of Modern Political Thought',
+          summary: 'Ask what a writer was doing with a text, not only what the text says. Vocabularies are inherited; they are deployed in fights.',
+          html: '<p>Skinner\u2019s method tells against both sides here when they are careless: a continuity of words is not a continuity of doctrine, and a later thinker using a scholastic term may be doing something the scholastics would not recognize. Applied to this room, it asks what Vitoria was doing at Salamanca with a crown listening, and what the Huguenot resistance writers were doing with the same conciliar material. Complementary because it does not settle who is right about <em>ius</em>; it changes what would count as evidence for an answer.</p>'
         }
       ],
+      shifts: '<p>The textbook once began rights at 1690. Villey moved the origin back to the fourteenth century and called it a fall; Tierney moved it back further, to the twelfth-century canonists, and called it a development; Skinner asked both of them what their writers were doing. The practical result for this week is that Vitoria at Salamanca can be read neither as an early Locke nor as a man without a language of rights.</p>',
       ask: 'Tamar Herzog, <em>A Short History of European Law</em>, has already shown you plural laws still living. Does Tierney explain that plurality, or does Bodin explain the attempt to kill it?'
     },
     {

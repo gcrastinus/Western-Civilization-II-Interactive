@@ -30,7 +30,7 @@ app/
   css/app.css
   js/namespace.js calendar.js storage.js analytics.js app.js
   js/engines/{question,passages,map,battle,reconstruction,contest}.js
-  js/data/course.js intro.js arts.js review.js contest-renaissance.js contest-reformation.js w01.js … w12.js
+  js/data/intro.js arts.js overlay.js review.js contest-feudalism.js contest-renaissance.js contest-reformation.js w01.js … w12.js
   maps/            public-domain bases + CREDITS.md
   images/          Grok-filled slots (placeholders until then)
   docs/BUILD-STATUS.md  README.md  CITATIONS.md  GROK-IMAGE-SLOTS.md
@@ -51,7 +51,8 @@ app/
 - [x] GROK-IMAGE-SLOTS.md complete
 - [x] CITATIONS.md
 - [x] Smoke check (`node --check`, `node scripts/smoke.js`)
-- [ ] Browser click-through (open `?faculty=1` and walk a battle + a reconstruction)
+- [x] Browser click-through (all 87 routes walked headless; every control clicked; console clean)
+- [x] Review pass (Sept 2026): counterfactual banner bug, frozen reconstructions, dispute depth, prose
 - [ ] Create the real GoatCounter site and paste the URL into `js/analytics.js`
 - [ ] Grok Bot: restyle maps + fill `images/wNN-atmosphere.jpg`
 
@@ -61,3 +62,19 @@ app/
 2. First unchecked item is the next task.
 3. Do not republish parent-folder PDFs.
 4. Do not summarize a week’s assigned Reilly / Neal-Cameron / Herzog / Bod in that week’s rooms. Quote them only in rooms with `review: true`.
+
+## Review pass, 9 September 2026
+
+Fixed:
+
+- Counterfactual scenarios were inheriting the historical `result` banner, so "If Philip had refused battle" still announced the French victory and the prisoners taken. Counterfactuals now carry only their own result, are flagged in the beat panel, and render the `premise` field, which had never been displayed at all.
+- Seven of the twelve reconstructions ignored their step parameters, so clicking through the steps changed the prose and left the figure frozen: mean-speed, computus, bookkeeping, jones, watt, lavoisier, pompeii (and leeuwenhoek, whose radius clamped at the same value for two of three magnifications). All twelve now respond to their steps; the week files pass the parameters.
+- The inclined plane ran uphill. The Jupiter demo showed four moons every night; it now uses the counts and sides Sidereus Nuncius reports, since the changing number is the evidence.
+- `js/app.js` was dropping the `of` clause from every `arts.js` entry, so the connections room printed the work and the because and threw away the middle of the sentence.
+- `document.title` now names the room; the contents filter survives a re-render; the theme button shows the state it is in.
+
+Content:
+
+- Week 1's feudalism dispute is now a full contest (`contest-feudalism.js`): three topics, an eleven-step chronology from the feudists to Wickham, and the Past & Present exchange over the year 1000.
+- Every remaining `dispute` room gained named scholars with `stance` and a `shifts` block; the passages engine renders both.
+- Week 6's capitalism room now actually contains the agrarian question its blurb promised (Brenner), plus de Vries and McCloskey.

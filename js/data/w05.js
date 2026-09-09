@@ -62,7 +62,7 @@ WC2.registerWeek({
         {
           title: 'If Doria had closed instead of manoeuvring',
           beats: [
-            { t: 0, title: 'The obvious accusation', html: '<p>Venetians did accuse Doria of caution shading into treachery. A tighter right might have bagged Uluj Ali.</p>' },
+            { t: 0, title: 'The Venetian charge', html: '<p>Venetians did accuse Doria of caution shading into treachery. A tighter right might have bagged Uluj Ali.</p>' },
             { t: 1, title: 'The reply', html: '<p>Galleys on a wing that over-extends become a second battle. Doria’s job was not to furnish a complete annihilation for Venetian verse. The coalition’s politics are in that caution: Genoese-Spanish interest is not Venetian revenge.</p>' }
           ],
           verdict: 'A more aggressive right could have made the victory tidier. It could also have lost the Spanish squadron. Coalitions fight with a reserve of distrust.'
@@ -73,7 +73,7 @@ WC2.registerWeek({
             { t: 0, title: 'The preacher’s sequel', html: '<p>Pius V wanted a crusade that continued. Winter, typhus, and unpaid oarsmen are also facts.</p>' },
             { t: 1, title: 'Ottoman recovery', html: '<p>The arsenal at the Horn could replace galleys faster than Western sermons could replace leagues. A pursuit without a landing force is a parade.</p>' }
           ],
-          verdict: 'The “why didn’t they finish it?” question ignores what a galley league is: a season, not a state.'
+          verdict: 'Asking why they did not finish the job mistakes what a galley league was. It was a season, not a state.'
         }
       ]
     },
@@ -108,14 +108,14 @@ WC2.registerWeek({
       beats: [
         { t: 0, title: 'A siege already in the tunnels', html: '<p>From July the Ottomans have been mining the ravelins. The city is Starhemberg’s. Leopold I has left it. A relief army has to be built from imperial troops, Bavarians, Saxons, and John III Sobieski’s Poles — a coalition as awkward as Lepanto’s, on land.</p>' },
         { t: 0.45, title: 'Down from the woods', html: '<p>12 September: the relief deploys on the Kahlenberg and comes down. The Polish hussars’ charge is real and also immediately myth. It hits a camp that has spent its force on the walls and did not break off the siege in time to form a proper field army.</p>' },
-        { t: 1, title: 'Kara Mustafa’s error', html: '<p>He had a choice: keep the trenches, or form to meet the relief. He tried to do both. He will be strangled at Belgrade on the sultan’s order. The Habsburgs will spend the next decades in Hungary. 1683 is not the end of Islam in Europe (see the map). It is the end of Ottoman strategic initiative on the middle Danube.</p>' }
+        { t: 1, title: 'Kara Mustafa’s error', html: '<p>He had a choice: keep the trenches, or form to meet the relief. He tried to do both. He will be strangled at Belgrade on the sultan’s order. The Habsburgs will spend the next decades in Hungary. 1683 does not end Islam in Europe — look at the map. What ends is Ottoman strategic initiative on the middle Danube.</p>' }
       ],
       counterfactuals: [
         {
           title: 'If Kara Mustafa had met the relief in a formed line',
           beats: [
-            { t: 0, title: 'The obvious field', html: '<p>Lift the close siege for two days, choose ground, fight the relief before it comes off the hills.</p>' },
-            { t: 1, title: 'Why he did not', html: '<p>A grand vizier who lifts a siege that is about to fall looks like a man who failed. The trenches were his argument at court. The “obvious” military move was a courtly death.</p>' }
+            { t: 0, title: 'Lift the siege, choose ground', html: '<p>Lift the close siege for two days, choose ground, fight the relief before it comes off the hills.</p>' },
+            { t: 1, title: 'Why he did not', html: '<p>A grand vizier who lifts a siege that is about to fall looks like a man who failed. The trenches were his argument at court. The better military move would have been a courtly death sentence.</p>' }
           ],
           verdict: 'Forming to meet Sobieski was the better battle. It was the worse dispatch to Edirne. Captains live in two time-scales.'
         },
@@ -169,8 +169,8 @@ WC2.registerWeek({
         {
           title: 'If Tallard had not packed so many men into Blindheim',
           beats: [
-            { t: 0, title: 'The obvious flexibility', html: '<p>Keep a mobile reserve instead of a stuffed village.</p>' },
-            { t: 1, title: 'Why villages eat armies', html: '<p>The Danube anchors the right. A village looks like a fort. It becomes a prison when the centre goes. The “obvious” un-stuffing requires Tallard to trust a field fight against Marlborough, which is what he was trying not to do.</p>' }
+            { t: 0, title: 'Keep a reserve', html: '<p>Keep a mobile reserve instead of a stuffed village.</p>' },
+            { t: 1, title: 'Why villages eat armies', html: '<p>The Danube anchors the right. A village looks like a fort. It becomes a prison when the centre goes. Thinning the village requires Tallard to trust a field fight against Marlborough, which is the one thing he was trying to avoid.</p>' }
           ],
           verdict: 'A thinner Blindheim might have given Tallard a reserve. It would also have given Marlborough an easier march into the same centre. The error is real; it is not a cartoon of French stupidity.'
         },

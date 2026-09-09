@@ -42,12 +42,14 @@ WC2.registerWeek({
       blurb: 'Thibaut wants a German civil code now; Savigny says the time is not ripe.',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'A. F. J. Thibaut',
           years: '1814',
           summary: 'After the Wars of Liberation, Germany needs a single civil code, on the French model in ambition if not in copy, to be a nation in law.',
           html: '<p>Thibaut’s claim, in 1814, is that after the Wars of Liberation Germany needs a single civil code, on the French model in ambition if not in copy, if it is to be a nation in law. Unity, on this view, is a legal act. Waiting for a “spirit of the people” to ripen is a way of remaining a patchwork while France already has a book.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'Friedrich Carl von Savigny',
           years: '1814',
           work: 'Of the Vocation of Our Age for Legislation and Jurisprudence',
@@ -55,11 +57,28 @@ WC2.registerWeek({
           html: '<p>Savigny answers that law is the organic product of a people’s history, the <em>Volksgeist</em>. This age should study, especially Roman law as received in Germany, not manufacture a code. A code now, he says, would be a thin French garment on a German body. The historical school is a politics of delay, and of scholarship as national work. It is also a claim about what law is: not command, but custom with a memory.</p>'
         },
         {
+          stance: 'complementary',
           scholar: 'The American contrast',
           summary: 'A written constitution (1787) that is not a civil code; Marshall’s court teaching the country to read it as law.',
           html: '<p>The United States instrument of 1787 is a frame for a federal republic. The Bill of Rights was added as a political bargain. It is not Portalis’s book of private life — families, property, contracts. To compare the two as “two modern codes” is a category error. To compare them as two ways of putting a revolutionary generation on paper is fair.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Otto von Gierke',
+          years: '1868\u20131913',
+          work: 'Das deutsche Genossenschaftsrecht',
+          summary: 'Savigny\u2019s historical school produced its own critic. Gierke found in German law a real group personality \u2014 the fellowship, the guild, the town \u2014 that Roman law had to reduce to a fiction.',
+          html: '<p>Gierke argued that the Romanists had bought their elegance at the price of the association: a corporation in their hands is a fiction the state permits, whereas in the German material the fellowship is a living person with a will. Maitland translated the medieval part of the work into English and thought it explained the trust and the joint-stock company. The line runs straight back to week 3: whether a body that is not a man can be a person in law is the same question the canonists asked about the Church.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'The codes as instruments of rule',
+          work: 'the Code outside France',
+          summary: 'A code is portable. What travelled with the Napoleonic armies was administrative uniformity, and it outlasted the empire that carried it.',
+          html: '<p>The Civil Code went into the Rhineland, the Low Countries, Italy, and Poland behind the French army, and much of it stayed after 1815 because officials found it easier to govern with. Later it was adopted where no French soldier had gone. That is an argument neither Thibaut nor Savigny quite made: a code may win not because a nation was ready for it, nor because it expressed a spirit, but because it is a better tool for a bureaucracy \u2014 the same reason a script won in week 12 of the other course.</p>'
         }
       ],
+      shifts: '<p>The 1814 pamphlet war looks like a quarrel about drafting and is a quarrel about what law is: a command a legislature issues, or a custom a nation grows. Savigny won the immediate argument \u2014 Germany had no civil code until 1900 \u2014 and the historical school produced both the Pandectist science that made the eventual code possible and, in Gierke, the objection that the science had lost the group. The American instrument sits outside the quarrel, which is why comparing it to the Code teaches more than lining them up.</p>',
       ask: 'Bentham called natural rights “nonsense upon stilts.” Tierney has already shown you a longer rights-language. In Tamar Herzog, <em>A Short History of European Law</em>, where is the live fight — codes, rights, or the profession of the judge?'
     },
     {

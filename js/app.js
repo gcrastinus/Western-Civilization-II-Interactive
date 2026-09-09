@@ -159,7 +159,7 @@ WC2.renderRoom = function (week, room, mount) {
     else if (room.type === 'connections') {
       const ul = WC2.el('ul', { class: 'connections' });
       (WC2.arts[week.id] || room.items || []).forEach(function (c) {
-        ul.appendChild(WC2.el('li', { html: '<strong>' + c.work + '.</strong> ' + c.because }));
+        ul.appendChild(WC2.el('li', { html: '<strong>' + c.work + '</strong>' + (c.of ? ' is an example of ' + c.of : '') + (c.because ? ' because ' + c.because : '') }));
       });
       mount.appendChild(ul);
     } else if (room.type === 'resources') {
@@ -266,6 +266,35 @@ WC2.renderReview = function (mount) {
   if (rev && (rev.passages || rev.positions)) WC2.engines.passages(rev, mount);
 };
 
+WC2.applyNavFilter = function () {
+  const find = document.getElementById('find');
+  const q = (find && find.value ? find.value : '').toLowerCase();
+  document.querySelectorAll('#nav-list a').forEach(function (a) {
+    a.style.display = !q || a.textContent.toLowerCase().indexOf(q) !== -1 ? '' : 'none';
+  });
+};
+
+WC2.titleFor = function (route) {
+  const base = 'Western Civilization II';
+  if (route.view === 'overlay') {
+    const o = WC2.overlay && WC2.overlay[route.room];
+    return (o ? o.title : 'Overlay') + ' \u00b7 ' + base;
+  }
+  if (route.view === 'intro') {
+    if (route.room === 'home') return base;
+    const r = ((WC2.intro && WC2.intro.rooms) || []).find(function (x) { return x.id === route.room; });
+    return (r ? r.title : 'Introduction') + ' \u00b7 ' + base;
+  }
+  if (route.view === 'week') {
+    const w = WC2.weeks[route.week];
+    if (!w) return base;
+    if (route.room === 'home') return w.title + ' \u00b7 ' + base;
+    const room = WC2.findRoom(w, route.room);
+    return (room ? room.title + ' \u00b7 ' + w.title : w.title) + ' \u00b7 ' + base;
+  }
+  return base;
+};
+
 WC2.render = function () {
   const route = WC2.parseRoute();
   const main = document.getElementById('main');
@@ -305,9 +334,9 @@ WC2.render = function () {
   }
 
   WC2.renderNav(route);
+  WC2.applyNavFilter();
   WC2.renderFaculty();
-  const titleBits = ['Western Civilization II'];
-  document.title = titleBits.join(' · ');
+  document.title = WC2.titleFor(route);
   WC2.markSeen(WC2.pathOf(route));
   WC2.track(WC2.pathOf(route), document.title);
 };
@@ -319,9 +348,16 @@ WC2.bindChrome = function () {
   document.getElementById('nav-backdrop').addEventListener('click', function () {
     document.documentElement.classList.remove('nav-open');
   });
-  document.getElementById('b-theme').addEventListener('click', function () {
+  const themeBtn = document.getElementById('b-theme');
+  WC2.paintTheme = function () {
+    const dark = WC2.state.theme === 'dark';
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+    themeBtn.textContent = dark ? '\u263e' : '\u2600';
+    themeBtn.setAttribute('aria-label', dark ? 'Switch to light' : 'Switch to dark');
+  };
+  themeBtn.addEventListener('click', function () {
     WC2.state.theme = WC2.state.theme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', WC2.state.theme);
+    WC2.paintTheme();
     WC2.saveState();
   });
   document.addEventListener('keydown', function (e) {
@@ -331,12 +367,7 @@ WC2.bindChrome = function () {
     }
   });
   const find = document.getElementById('find');
-  find.addEventListener('input', function () {
-    const q = find.value.toLowerCase();
-    document.querySelectorAll('#nav-list a').forEach(function (a) {
-      a.style.display = !q || a.textContent.toLowerCase().indexOf(q) !== -1 ? '' : 'none';
-    });
-  });
+  find.addEventListener('input', WC2.applyNavFilter);
   window.addEventListener('hashchange', function () {
     document.documentElement.classList.remove('nav-open');
     WC2.render();
@@ -347,9 +378,9 @@ WC2.bindChrome = function () {
 WC2.boot = function () {
   WC2.loadState();
   WC2.readFacultyFromURL();
-  document.documentElement.setAttribute('data-theme', WC2.state.theme || 'light');
   WC2.installGoat();
   WC2.bindChrome();
+  WC2.paintTheme();
   WC2.render();
 };
 

@@ -45,6 +45,7 @@ WC2.registerWeek({
       blurb: 'Archibald R. Lewis: the medieval expansion as a frontier that closes around 1300.',
       passages: [
         {
+          stance: 'opposing',
           scholar: 'Archibald R. Lewis',
           years: '1958',
           work: 'The Closing of the Medieval Frontier, 1250–1350',
@@ -52,13 +53,30 @@ WC2.registerWeek({
           html: '<p>Lewis argues that for about two centuries Latin Europe could grow by taking in more land and more people: clearances in the woods, new towns, the Baltic, and Spain. Around the late thirteenth century that extensive margin narrows. What follows is not automatically “decline.” It is a change of conditions: rents, famines, then plague, then a more intensive use of what land remains. A culture of expanding settlement had been living off a supply of new acres. When the acres run out, the old habits either change or become cruel.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'M. M. Postan',
           years: '1950s',
           work: 'Medieval agrarian society in its prime / land and population',
           summary: 'The English (and by extension European) medieval economy is bounded by the ratio of people to land, with diminishing returns on marginal soils.',
           html: '<p>Postan argues that population rose through the thirteenth century onto worse land, so that yields per head fell. The early fourteenth century was already in trouble before the Black Death. The plague, on this view, is a demographic collapse on an overstretched agrarian base, not a bolt from a clear sky. Postan is not “against trade.” He is against telling the medieval story as if the Italian companies were the whole of it.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'John Hatcher and Mark Bailey',
+          years: '2001',
+          work: 'Modelling the Middle Ages',
+          summary: 'The neo-Malthusian model is a model. Test it and the fit is poor: yields, wages, and holdings do not move the way a pure population story requires.',
+          html: '<p>Hatcher and Bailey lay the competing models side by side \u2014 population and resources, class and property, commerce and markets \u2014 and ask what each would predict and what the manorial accounts actually show. Bruce Campbell\u2019s work on English demesne farming makes the same point with yields: agriculture was more responsive to markets, and more varied by region, than a single ceiling on land can explain. The value of a model, they conclude, is in the questions it forces; the danger is that it survives its own evidence.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Climate and disease as their own causes',
+          work: 'the Great Famine of 1315\u201322; the plague itself',
+          summary: 'Some of what looks like overpopulation is weather; and Yersinia pestis did not need an overstretched peasantry in order to kill.',
+          html: '<p>Three years of catastrophic rain, cattle murrain, and failed harvests in 1315\u201322 come from the atmosphere, not from the ratio of people to acres. The plague of 1348 arrives from Asia along trade routes and kills the well-fed as well as the marginal. Complementary because it does not deny that the margin had narrowed; it denies that the narrowing is sufficient to explain the century, and it refuses to let a society be blamed for its own weather.</p>'
         }
       ],
+      shifts: '<p>Postan\u2019s model dominated English medieval economic history for a generation. Robert Brenner attacked it in 1976 by asking why identical demographic pressure produced serfdom east of the Elbe, free tenancy in England, and small peasant holdings in France \u2014 which turned the argument from land to property and lordship, and set off the exchange you will meet in week 6. Hatcher and Bailey then put all the models on trial together. What survives is the modest thing: the extensive margin did close, and what happened next depended on who held the land and on what terms.</p>',
       ask: 'Lewis and Postan can be made to agree that the extensive margin closes. They can also be made to fight about the motor: land and people alone, or a whole frontier that includes crusade and towns. Which of those fights actually helps you see the crisis you already know from Neal and Cameron?'
     },
     {

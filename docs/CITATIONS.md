@@ -12,7 +12,22 @@ Reilly, Neal and Cameron, Herzog, and Bod remain on the Student Portal. This app
 
 ## Secondary positions (summaries, short fair-use)
 
-Positions are summarized from works in the course folder and the recommended list: Ganshof, Bloch, Brown/Reynolds, Southern, Chenu, Lewis (frontier; courtly love), Postan, Post, Tierney, Black, Caferro *Contesting the Renaissance*, Dixon *Contesting the Reformation*, Bouyer *The Spirit and Forms of Protestantism*, Kuhn, Shapin, Weber, Tawney, Braudel, Polanyi, Israel, Greene, Hanson, Savigny, Portalis. Quoted blocks are kept short; otherwise the card is a position-summary.
+Positions are summarized from works in the course folder and the recommended list. Quoted blocks are kept short; otherwise the card is a position-summary and no continuous text is reproduced.
+
+- **Feudalism (contest, week 1):** the sixteenth- and seventeenth-century feudists (Craig, Cujas, the *Libri Feudorum*); Montesquieu; Maitland and Round; Bloch; Ganshof; Duby; Poly and Bournazel; Elizabeth A. R. Brown; Susan Reynolds; the *Past & Present* feudal-revolution exchange (Bisson, Barthelemy, White, Reuter, Wickham); Dobb, Hilton and Wickham for the mode of production.
+- **Land and population (week 2):** Archibald R. Lewis; Postan; Hatcher and Bailey, *Modelling the Middle Ages*; Bruce Campbell.
+- **Law as constitutional thought (week 3):** Tierney; Gaines Post; Berman, *Law and Revolution*; Kantorowicz, *The King's Two Bodies*.
+- **Twelfth-century humanism (week 4):** Southern; Chenu; Colin Morris; Bynum, "Did the Twelfth Century Discover the Individual?"; Constable, *The Reformation of the Twelfth Century*.
+- **Renaissance and Reformation (contests, week 5):** Caferro, *Contesting the Renaissance*; Dixon, *Contesting the Reformation*, and the scholars each of them maps.
+- **Origins of capitalism (week 6):** Weber; Tawney; Braudel and Wallerstein; Brenner and the Brenner debate; Jan de Vries; McCloskey.
+- **Natural rights (week 7):** Tierney, *The Idea of Natural Rights*; Bodin and the absolutist reading, with Koenigsberger; Villey's nominalist thesis; Skinner and the Cambridge school.
+- **Scientific Revolution (week 8):** Kuhn; the continuists (Grant, Hannam); Shapin; Butterfield and Koyre; Peter Dear.
+- **What 1776 ignited (week 9):** Jonathan Israel; Jack P. Greene; Hanson and the readers on the French Revolution; Bailyn and Wood; the Atlantic and Haitian frame (C. L. R. James, Dubois, Trouillot).
+- **Why Britain first (week 10):** Robert Allen; North and the institutionalists; Polanyi; Mokyr; Pomeranz.
+- **Codes (week 11):** Thibaut and Savigny; the American instrument; Gierke; the Code's career outside France.
+- **Enlightenment (week 12):** Israel; the theological and national Enlightenments; Antony Black; Pocock and Robertson; Darnton; Sheehan and Sorkin.
+
+Also drawn on across the course: Bouyer, *The Spirit and Forms of Protestantism*; Portalis.
 
 ## Maps
 

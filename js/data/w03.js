@@ -42,19 +42,38 @@ WC2.registerWeek({
       blurb: 'Brian Tierney: conciliarism and rights do not begin in 1689.',
       positions: [
         {
+          stance: 'complementary',
           scholar: 'Brian Tierney',
           years: 'essays collected as Church Law and Constitutional Thought',
           summary: 'Canonists, facing popes and emperors who might err, developed languages of consent, representation, and (later in his career) subjective rights. The road to modern constitutionalism runs through the Church’s own law.',
           html: '<p>Tierney’s claim is that the Church’s own law taught later Europe how to talk about limited power. Gratian’s <em>Decretum</em> asks what happens if a pope becomes a heretic; conciliar writing asks whether a council might judge; the corporation as a <em>persona ficta</em> outlives its members. These are not decorations on “real” politics. They are the tools with which later men will talk about kings. Locke comes late in a conversation that the canonists had already begun.</p>'
         },
         {
+          stance: 'complementary',
           scholar: 'Gaines Post',
           years: '1964',
           work: 'Studies in Medieval Legal Thought — the emergence of the state',
           summary: 'Roman- and canon-law jurists in the twelfth and thirteenth centuries give kings a vocabulary of status, necessitas, and “the king is emperor in his own kingdom.”',
           html: '<p>Post’s claim is that twelfth- and thirteenth-century jurists gave kings a working vocabulary of public power. <em>Rex in regno suo est imperator</em> — the king is emperor in his own kingdom — is a lawyer’s sentence with a political aim: to stop imperial or papal claims from being the last word inside France, England, or Castile. The “state,” on this view, is not a nineteenth-century surprise. It is a set of maxims about what a fisc, a public good, and an emergency are. Frederick II’s <em>Liber Augustalis</em> puts that vocabulary into a statute-book. Edward I’s inquiries put it into another accent.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Harold J. Berman',
+          years: '1983',
+          work: 'Law and Revolution',
+          summary: 'The Western legal tradition begins in a revolution: the papal reform of 1075\u20131122, which produced the first modern legal system and a permanent plurality of jurisdictions.',
+          html: '<p>Berman\u2019s claim is deliberately large. Once the Church claimed to be a distinct legal order with its own courts, procedure, and professional jurists, secular rulers had to build the same, and Europe acquired a lasting competition of laws over the same people. Corporations, universities, the reception of Roman law, the idea of a right good against a superior \u2014 he traces all of it to that break. Critics call the account teleological and Protestant in shape; even they concede that the periodization did work no one had done before.</p>'
+        },
+        {
+          stance: 'complementary',
+          scholar: 'Ernst Kantorowicz',
+          years: '1957',
+          work: 'The King\u2019s Two Bodies',
+          summary: 'Lawyers gave the king a second, undying body, so that the office could outlive the man \u2014 and they built it out of theology, in the same schools.',
+          html: '<p>Kantorowicz follows the doctrine from canon law and liturgy into English and French royal jurisprudence: the crown that does not die, the dignity that never perishes, the fisc that cannot be alienated. It is the hinge this room needs. Tierney watches the Church give Europe a language for limiting rulers; Post watches jurists give rulers a language of public power; Kantorowicz shows that both were made from the same material, by men trained in the same books.</p>'
         }
       ],
+      shifts: '<p>The nineteenth century put the origins of constitutional thought in Germanic custom, or in 1689. The twentieth moved them into the medieval law schools \u2014 Kantorowicz on the office, Post on the state, Tierney on limits and rights, Berman on the whole tradition. The standing caution is that these scholars were all reading learned texts, and what a jurist wrote is not yet what a sheriff did.</p>',
       ask: 'Tierney is interested in limits on rulers; Post is interested in rulers becoming states. They are not opposites. Where, in Innocent III or in Bracton, do you need both?'
     },
     {

@@ -39,22 +39,42 @@ WC2.registerWeek({
       blurb: 'Wages and coal, empire, institutions, Polanyi’s great transformation.',
       positions: [
         {
+          stance: 'opposing',
           scholar: 'Robert Allen (and the high-wage / cheap-energy view)',
           summary: 'Britain’s high silver wages and cheap coal make labour-saving machinery rational there first.',
           html: '<p>Allen’s claim is about relative prices. Britain’s high silver wages and cheap coal made labour-saving machinery rational there first. A spinning jenny in a cheap-labour region is a toy. In Lancashire it pays. The argument is material, and it is made with numbers.</p>'
         },
         {
+          stance: 'opposing',
           scholar: 'Institutionalists (North, and Neal-Cameron’s own emphasis)',
           summary: 'Property, banks, a state that can borrow, a law of patents that sometimes works.',
           html: '<p>Institutionalists (Douglass North, and Neal and Cameron’s own emphasis) argue that property, banks, a state that can borrow, and a law of patents that sometimes works are what made the machines worth building. Arkwright’s lawsuits are the exhibit. Without courts and credit, coal is just a rock. The legal machinery of patents and codes is the other half of the same story as the mill.</p>'
         },
         {
+          stance: 'complementary',
           scholar: 'Karl Polanyi',
           work: 'The Great Transformation',
           summary: 'The attempt to treat land, labour, and money as fictitious commodities; a double movement of market and social protection.',
           html: '<p>Polanyi’s claim is that land, labour, and money were treated as if they were ordinary commodities, which they are not. The result is a double movement: the market expands, and society protects itself. The poor law, Speenhamland, and later factory acts are not extras. They are the other half of the event. William Cobbett belongs here as a witness to that protection and that damage, not as scenery.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Joel Mokyr',
+          years: '2002\u201317',
+          work: 'The Gifts of Athena; A Culture of Growth',
+          summary: 'What was new was useful knowledge and the traffic between those who knew why and those who could make it work.',
+          html: '<p>Mokyr\u2019s objection to Allen is that high wages had occurred before without machines. His candidate is an Industrial Enlightenment: a culture in which natural philosophers and skilled artisans read each other, in which knowledge circulated cheaply through societies, encyclopaedias, and correspondence, and in which improvement had prestige. Britain\u2019s advantage on this account is a supply of instrument-makers, millwrights, and clockmakers who could execute an idea \u2014 Watt was one of them.</p>'
+        },
+        {
+          stance: 'opposing',
+          scholar: 'Kenneth Pomeranz',
+          years: '2000',
+          work: 'The Great Divergence',
+          summary: 'The advanced regions of Europe and of China were much alike in 1750. What separated them was coal in the right place and the resources of the New World.',
+          html: '<p>Pomeranz compares England with the Yangzi delta and finds similar life expectancy, market development, and land productivity. The divergence then comes from two pieces of luck: British coal near water transport, and colonies supplying sugar, cotton, and timber that would otherwise have required land Britain did not have. Opposing to Mokyr and the institutionalists because it makes the culture and the courts secondary to a geological and imperial accident.</p>'
         }
       ],
+      shifts: '<p>The old answer was British genius, then British institutions. Allen made it a matter of relative prices and got numbers into the argument; Mokyr answered with knowledge and the people who could use it; Polanyi keeps asking what it cost the people it was done to; Pomeranz moved the whole question out of Europe and forced every other answer to explain why the Yangzi delta did not do the same thing. The disagreement is now unusually productive because all four sides accept that the others are measuring something real.</p>',
       ask: 'Kenneth Pomeranz’s China comparison — why not the Yangzi delta? — is the global version of Allen’s question. What, from the British mill, would you actually need to know before that comparison could mean anything?'
     },
     {
